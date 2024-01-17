@@ -1,0 +1,78 @@
+ # Makefile For both Data and Velocity Modelling
+CCC = /usr/bin/g++
+CC = /usr/bin/gcc
+CFLAGS = -ansi -O3 #-pg
+CCFLAGSOFF = -Wno-deprecated -Wall
+CCFLAGS = -w -g
+HOME =/scratch/tolugboj_lab/softwares/rfcodes
+PWD = ${HOME}/nr_c304/code/
+PWD2 = ${HOME}/plplot-5.9.7/include
+INCLUDE = -I${PWD} -I${PWD2}
+#$@ is short for targets.
+#$^ is short for all pre-requisites
+#$< is short for first pre-requisites
+#$? all out of date pre-requisites
+
+
+RFROUTER = RFrouter TraceStack HarmonicStack  MigrationParams  MTCDriver RecordList sacread
+GRIDSTCK = GrdSrchRouter TraceStack MTCDriver MigrationParams sacread RecordList  
+
+RFROUTERSOURCE = $(RFROUTER:=.cpp)
+RFROUTERHEADER = $(RFROUTER:=.h)
+RFROUTEROBJECTS = $(RFROUTER:=.o)
+SPECTRUMOBJECTS = error.o fourier.o spectrum.o
+RECFUNCOBJECTS = RecFunc.o  $(RFROUTEROBJECTS) $(SPECTRUMOBJECTS) 
+
+
+GRIDSTCKOBJ = $(GRIDSTCK:=.o)
+GRIDSTCKSRC = $(GRIDSTCK:=.cpp)
+GRIDSTCKHEADER = $(GRIDSTCK:=.h)
+
+
+.PHONY = clean help docu
+
+# Main Modules. Count? 2 at the moment ...
+all: RecFunc RFVelStck
+
+RecFunc: $(RECFUNCOBJECTS)
+		$(CCC) -o RecFunc $(RECFUNCOBJECTS) -lm 
+		
+RFVelStck: RFVelStack.o $(GRIDSTCKOBJ) $(SPECTRUMOBJECTS) 
+		$(CCC) -o RFVelStck RFVelStack.o $(GRIDSTCKOBJ) $(SPECTRUMOBJECTS)  -lm
+		
+		
+# Dependencies ....		
+
+RFVelStack.o: RFVelStack.cpp $(GRIDSTCKSRC) $(GRIDSTCKHEADER)
+		$(CCC) $(CCFLAGS) -c RFVelStack.cpp $(GRIDSTCKSRC) $(INCLUDE)
+
+RecFunc.o: RecFunc.cpp 
+		  $(CCC) $(CCFLAGS) -c RecFunc.cpp $(INCLUDE)
+		  		
+
+RFrouter.o: $(RFROUTERSOURCE) $(RFROUTERHEADER)
+		  $(CCC) $(CCFLAGS) -c $(RFROUTERSOURCE) $(INCLUDE)
+
+		  
+error.o: error.cc error.h
+		$(CCC)  $(CCFLAGS) -c $(CCFLAGS) error.cc $(INCLUDE)
+		
+fourier.o: fourier.cpp 
+		  $(CCC) $(CCFLAGS) -c fourier.cpp $(INCLUDE)
+
+spectrum.o: spectrum.cpp 
+		  $(CCC) $(CCFLAGS) -c spectrum.cpp $(INCLUDE)
+		  
+
+clean:
+	rm *.o *~ 
+    
+    
+help:
+	@echo 'This is My Make File Running on my LAB PC. I keep a seperate MakeFile. '
+	@echo "All Objects are: " $(MAINOBJECTS)
+	@echo "RF Router Definitions: " $(RFROUTERHEADER)
+	@echo 'Added a module to compile H-K stacking code ...'
+	
+docum:
+	doxygen RecFuncDocConfig.txt

@@ -1,0 +1,333 @@
+/*
+ *  RecFunc.cpp
+ *  
+ *
+ *  Created by Tolulope Olugboji on Nov. 11, 2010.
+ *			   Version 2.0      closed on April 14, 2011   [One option still open, retire?]
+ *             Version 2.1      commenced on June  17, 2011
+ *             Version 3.1      commenced on Nov.  13, 2012 [Harmonic Stacking, ParkOlugbojiSep.key]
+ *
+ *  Copyright 2010 Yale University. All rights reserved. *
+ *	Usage: RecFunc.cpp -LEventlist -Ffmax  -BMaxBinsize -Abazmin/bazmax/bazinc 
+ *	                   -Ebazmax/bazmin/epicmin/epicmax/epicinc -Ttimewin -HheaderTag -Vverbose 
+ *  
+ *  Requested Update (April 26, 2011): -D option
+ *                      T[his option specifies which epicentral distance range is 
+ *					    acceptable for computation. Useful for discriminating records that are not
+ *						teleseismic. Ongoing!]
+ *  Requested Update (June 17, 2011):  -M migration module or option...
+ *                                      still Thinking of How that will be implemented??
+ *                                     -S statistics module, after CCP stacking.
+ *                                     
+ *  Requested Utility (June 17, 2011): A plotter class external to my main module, useful for 
+ *                                      debugging. Make extensible & toggle capable
+ *
+ *  Requested Update (June 17, 2011): Write SvRecFunc.cpp : 
+ *                                     S receiver function After migration & Stats module
+ *  Implementing Update
+ *  
+ *
+ *  Files Output by RecFunc:
+ *     [V]     1. RFs by Azim:  Azim_Rad.xyz & Azim_Trans.xyz
+ *     [V]     2. RFs by Epic:  Epic_Rad.xyz & Epic_Trans.xyz
+ *     [V]     3. Spectrum:     Rad_Spec.xyz,  Tran_Spec.xyz & Noise_Spec.xyz
+ *     [X]     4. Coherence:    Coher_Rad.xyz & Coher_Trans.xyz
+ *     [V]     5. Event Stat:   FileNme_Event.txt
+ *     [V]     6. Log File:     FileNme.log
+ */
+
+
+#include "error.h"
+#include <cstdio>
+#include <cctype>
+#include <iostream>
+#include "RFrouter.h"
+
+using namespace std;
+
+<<<<<<< HEAD
+=======
+// Type of AZIMEPIC STack to Perform
+#define  STACKAZIM 0
+#define  STACKEPIC 1
+
+// Harmonic DisplayTimes
+#define  CMPSHARMONIC 0
+#define  EXPANSIONHARMONIC 1
+
+// Router Specific Codes ....
+#define SIMPLEAZIMEPIC 1
+#define SIMPLEHARMONIC 2
+#define MWMAZIEPIC 3
+#define MWMHARMONIC 4
+#define FREQMIGRATEAZIMEPIC 5
+#define FREQMIGRATEHARMONIC 6
+#define ECCAZIMEPIC 7
+#define ECCHARMONIC 8
+
+//More router codes: specific to migrating reverberated phases. 
+#define MOHOREVERBPSMS 9
+#define MOHOREVERBPPMS 10
+
+>>>>>>> 4c8a38e59beb89659cfc86414810bd6ed7dd56c5
+int main(int argc, char** argv){
+	
+	// Variables to hold option flags. They determine what modules to be run in RFrouter
+	bool getArray=false, getFreq=false, getAzim=false, getEpic=false, err=false;
+	bool getBinsz=false, getTimewin=false, getOut = false, getVerbose = false;
+	bool getHeaderTag=false, getLqtSwch = false, getMigrationModel = false;
+	bool getMigrationMode=false, getMigReverbMode=false, getStackMode=false;
+
+	
+	// Variables to support options: additional option arguments. used by RFrouter ...
+	int binsize=0; 
+	int timeTag =1;								// Use header t1 by default: timeTag=1
+    int migrationModeFlag, migrationModeArg, stackModeFlag, stackModeArg;
+	int migDepthKm;							    // Depth for reverb phases (Expected Moho)
+	int reverbPhaseFlag;							// Choose between PpSms or PpPms
+	float bazmin, bazmax, bazinc, epicmin, epicmax;
+	float epbazmin, epbazmax;
+	float epicinc, Fcutoff, timeWin;
+	float lqtRotArg = -1.0;
+	char *eventsfn, *filename, *outfn, *velocityfn;
+	
+	//Retrieve arguments and ensure array file well parsed.
+	for (int i=1; i<argc; i++) {
+		if (argv[i][0] == '-') {
+			switch (argv[i][1]) {
+				case 'L':
+					eventsfn = &argv[i][2];
+					getArray = true;
+					break;
+				case 'T':
+					getTimewin = true;
+					timeWin = atof(&argv[i][2]);
+					break;
+				case 'F':
+					Fcutoff = atof(&argv[i][2]);
+					getFreq = true;
+					break;
+				case 'B':
+					// Work on passing binsize to the TraceStack routine
+					binsize = atoi(&argv[i][2]);
+					getBinsz = true;
+					break;
+				case 'A':
+					if (sscanf(&argv[i][2], "%f/%f/%f", 
+							   &bazmin, &bazmax, &bazinc) == 3) {
+						getAzim = true;
+					}else {
+						error("Invalid -A option. Using default Azimuth setting");
+					}
+					break;
+				case 'E':
+					if (sscanf(&argv[i][2], "%f/%f/%f/%f/%f", 
+							  &epbazmin, &epbazmax, &epicmin, &epicmax, &epicinc) == 5) {
+						getEpic = true;
+					}else {
+						error("Invalid -E option. Using default Epic. setting");
+					}
+					break;
+				case 'O':
+					outfn = &argv[i][2];
+					getOut = true;
+					break;
+				case 'H':
+					getHeaderTag = true;
+					timeTag = atoi(&argv[i][2]);
+					break;
+                case 'M':
+                    if (sscanf(&argv[i][2], "%d/%d", &migrationModeFlag, &migrationModeArg) == 2) {
+                        getMigrationMode = true;
+                    }else{
+                        error("Invalid -M option. Using default MigrationMode = Moving Window");
+                    }
+                    break;
+				case 'm':
+                    if (sscanf(&argv[i][2], "%d/%d", &reverbPhaseFlag, &migDepthKm) == 2) {
+                        getMigReverbMode = true;
+                    }else{
+                        error("Invalid -m option. Usage: [-m(reverbPhaseFlag/migDepthKm)] Code migrates to moho (or depth of reverberation) for reverberating phases: 1 for PpSms 2 for PpPms ...");
+						//  Could use a more suitable flag that does not interfere with the other migration flag.. best hack so far though.	
+                    }
+                    break;
+				case 'S':
+                    if (sscanf(&argv[i][2], "%d/%d", &stackModeFlag, &stackModeArg) == 2) {
+                        getStackMode = true;
+                    }else{
+                        error("Invalid -S option. Using default Stack mode: Azimuthal & Epicentral");
+                    }
+                    break;
+				case 'R':
+					getLqtSwch = true;
+					lqtRotArg = atof(&argv[i][2]);
+					break;
+				case 'V':
+					getVerbose = true;
+					break;
+				case 'I':
+					velocityfn = &argv[i][2];
+					getMigrationModel = true;
+					break;
+				default:
+					err=true;
+					break;
+			}
+		}else {
+			err = true;
+		}
+
+	}
+	//End Arguments processing ..
+	
+	// Check options input or exit
+	if (!getArray || !getFreq || !getTimewin ) err=true;
+	if (err) error(" Created by Tolulope Olugboji. \n Copyright 2010 Yale University. All rights reserved. Version 2.0 Migration module added, including reverberated phases. \n Updated July 1, 2013. \n Usage RecFunc: -Larraylist -Ffmax -H1 [-Bbin_size] [-Abazmin/bazmax/bazinc] [-Ebazmin/bazmax/epicmin/epicmax/epicinc] [-S[StackMode/StackModeArg]] \n [-M[MigrationMode/MigrationModeArg]] [-R[lqtRotArg]] [-Vverbose] [-m(reverbPhase/migDepthKm)]");
+	
+	// Set default time header field = T1
+	if ( !getHeaderTag) timeTag = 1;
+	
+	// If LQT rotation requested then default arg of -1 forlqtRotArg is replaced
+	// This argument is used in sacread to determine if LQT rotation is required or not.
+	if (getLqtSwch) {
+		if (getVerbose) cout << "\n\n\n***ScatteredWaveAnalysis(RF)*** Created by Tolulope Olugboji. \n************************** Copyright 2010 Yale University. All rights reserved. \n**Option: Switch for LQT rotation activated with incidence angle bias: " << lqtRotArg << endl;
+	}
+    
+	// Do Arguments Checking for Migration Mode To Use. Ensuring that the Velocity File is Well Constructed
+	if (getMigrationModel && getMigrationMode){
+		if (getVerbose) cout << "**Option: Direct Phase Migration with model: " 
+			<< velocityfn << endl;
+		
+	}else if (getMigReverbMode && getMigrationModel) {
+		if (getVerbose) cout << "**Option: Reverberated Phase Migration with model: " 
+			<< velocityfn << endl;
+	}
+	else if (  (!getMigrationModel) && (getMigrationMode || getMigReverbMode) ){
+		error(" Either Migration Mode (Reverb or Direct) or Migraton Model Not Set: Code Fail ");
+	}
+	
+	// Do Arguments Checking for Stacking Mode.. Otherwise Use Defaults
+	if (getStackMode){
+		
+		// Report stack mode so user can know what is goign on.
+		switch (stackModeFlag) {
+			case 0:
+				if (getVerbose) cout << "**Option: Azimuth-EpicentralDist Stack Selected" << endl;
+				break;
+			case 1:
+				if (getVerbose) cout << "**Option: Harmonic Stack Selected" << endl;
+				break;
+			default:
+				if (getVerbose) cout << "**Option: Not recognized..." << endl;
+				break;
+		}
+		
+		
+	}else {
+		error("Include the type of Stacking: \n [0. Azimuth-Epicentral] Or [1. Harmonic Stack]");
+	}
+	
+	// Check Mode Set and Call The RF router with appropriate Parameters.
+	if ( !getMigrationMode && !getMigReverbMode) {
+		cout << "No Migration ...." << endl;
+		switch (stackModeFlag) {
+			case 0:
+			{// Call RF router with Epicentral-Azimuth Stack - NULL for velocity model
+				int ROUTERCODE = SIMPLEAZIMEPIC;
+				
+				if (getAzim) {
+					RFrouter noMigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, 0, NULL,ROUTERCODE, bazmin, bazmax, bazinc, binsize, getVerbose);
+				}
+				if (getEpic){
+					RFrouter noMigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, 0, NULL, ROUTERCODE, epbazmin, epbazmax, epicmin, epicmax, epicinc, binsize, getVerbose);
+					
+				} else if (!getAzim && !getEpic) {
+					error("Unable to determine Azimuth or Epicentral Stack set -A or -E");
+				}
+
+			}
+				break;
+			case 1:
+			{// Call RF router with Harmonic Stack - NULL for velocity model
+				int ROUTERCODE = SIMPLEHARMONIC;
+				RFrouter stackRFs(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg,0, NULL, ROUTERCODE, getVerbose);
+			}
+				break;				
+			default:
+				break;
+		}
+	} else if (getMigrationMode && getMigrationModel){
+		switch (stackModeFlag) {
+			case 0:
+			{	// Call RF router with Crude Stack + Migration Routine. [Only MWM Implemented]
+				// Use MigrationMode to call RF router...
+				cout << "[Azimuth Epicentral Stack Called with MWM migration]" << endl;
+				int ROUTERCODE = MWMAZIEPIC;
+				
+				if (getAzim) {
+					RFrouter noMigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, migrationModeArg, velocityfn, ROUTERCODE, bazmin, bazmax, bazinc, binsize, getVerbose);
+				}
+				if (getEpic){
+					RFrouter noMigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, migrationModeArg, velocityfn, ROUTERCODE, epbazmin, epbazmax, epicmin, epicmax, epicinc, binsize, getVerbose);
+					
+				} else if (!getAzim && !getEpic) {
+					error("Unable to determine Azimuth or Epicentral Stack set -A or -E");
+				}
+			}
+				break;
+			case 1:
+				// Call RF router with Harmonic Stack + Migration Routine [Only MWM implemented]
+				cout << "Harmonic Stack Called." << endl;
+				break;
+			default:
+				break;
+		}
+	}else if (getMigReverbMode && getMigrationModel){
+		switch (reverbPhaseFlag) {
+			case 0:
+			{
+				cout << "**Option: Selected PpSms Phase Migration" << endl ;
+				int ROUTERCODE = MOHOREVERBPSMS;
+				
+				if (getAzim) {
+					RFrouter MigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, migDepthKm, velocityfn, ROUTERCODE, bazmin, bazmax, bazinc, binsize, getVerbose);
+				}
+				if (getEpic){
+					RFrouter MigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, migDepthKm, velocityfn, ROUTERCODE, epbazmin, epbazmax, epicmin, epicmax, epicinc, binsize, getVerbose);
+					
+				} else if (!getAzim && !getEpic) {
+					error("Unable to determine Azimuth or Epicentral Stack set -A or -E");
+				}
+				
+				break;
+			}
+			case 1:
+			{
+				cout << "**Option: Selected PpPms Phase Migration" << endl ;
+				int ROUTERCODE = MOHOREVERBPPMS;
+				
+				if (getAzim) {
+					RFrouter MigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, migDepthKm, velocityfn, ROUTERCODE, bazmin, bazmax, bazinc, binsize, getVerbose);
+				}
+				if (getEpic){
+					RFrouter MigrationEpicAzimStack(eventsfn, outfn, timeWin, Fcutoff, lqtRotArg, timeTag, stackModeArg, migDepthKm, velocityfn, ROUTERCODE, epbazmin, epbazmax, epicmin, epicmax, epicinc, binsize, getVerbose);
+					
+				} else if (!getAzim && !getEpic) {
+					error("Unable to determine Azimuth or Epicentral Stack set -A or -E");
+				}
+				
+				break;
+			}	
+			default:
+				break;
+		}
+		
+	}
+	
+	
+	
+	return 0;
+	
+}
+
+

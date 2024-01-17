@@ -1,0 +1,764 @@
+//
+//  RFrouter.cpp
+//  RFHarmonicStacking
+//
+//  Created by Tolulope on 6/14/13.
+//  Copyright (c) 2013 Yale University. All rights reserved.
+//
+// This class stages records, selects and determines the pre-RF methods to run.
+// The calls the required sacreader, computes RFs, stages RFs and determines stacking routine
+// Depending on user requirements it then Routes the RF into the required stacking methods.
+//				if you want crude stack you call method.	runTraceStack.cpp
+//				if you want harmonic stack you call method.  runHarmonicStack.cpp
+//				if you want moving window migrated stack call. runMovingWindowStack.cpp
+//				if you want frequency dependend migrated stack.  migrateFrequencyStack.cpp
+//  ....   This cleans up the main module and enables reusability.
+//         It also decouples the sacread routine and allows time shifting if necessary...
+
+
+#include "RFrouter.h"
+
+using namespace std;
+<<<<<<< HEAD
+		
+=======
+
+// Type of AZIMEPIC STack to Perform
+#define  STACKAZIM 0
+#define  STACKEPIC 1
+
+// Routing Code...
+#define SIMPLEAZIMEPIC 1	// Azimuth-Epicentral sweeps no migration
+#define SIMPLEHARMONIC 2	// Harmonic stacks no migration
+#define MWMAZIEPIC 3		// Azimuth-Epicentral sweeps using moving window migration
+#define MWMHARMONIC 4		// Harmonic stacks using moving window migration
+#define FREQMIGRATEAZIMEPIC 5 // Azimuth-Epicentral sweeps using frequency migration
+#define FREQMIGRATEHARMONIC 6 // Harmonic stacks using frequency migration
+#define ECCAZIMEPIC 7 // Azimuth-Epicentral sweeps using single event cross-corr 
+#define ECCHARMONIC 8 // Harmonic stacks using single event cross-corr
+
+//More router codes: specific to migrating reverberated phases. 
+#define MOHOREVERBPSMS 9		// Migrate Reverberated PpSms
+#define MOHOREVERBPPMS 10		// Migrate Reverberated PpPms.
+>>>>>>> 4c8a38e59beb89659cfc86414810bd6ed7dd56c5
+
+RFrouter::RFrouter(char* eventsfn, char* outfn, float timeWin, float Fmax, float lqtArg, int hTag, int stckArg, int migArg, char* velfn, int ROUTECODE,  bool getVbose)
+:tEventTrace(timeWin), lqtRotArg(lqtArg), headerTag(hTag), Fcutoff(Fmax), nBoot(stckArg), targetDepthKm(migArg), velocityfn(velfn), getVerbose(getVbose){
+	
+	//cout << "You just called the RFrouter routine. WIP" << endl;
+	
+	// Pick First Record and Calculate timing details.
+	// Initialize these values in class object for router...
+	RecordList allRecords(eventsfn, timeWin, Fcutoff);
+	
+	std::string first;
+	first.assign(allRecords.recordname[0]);
+	Sacread record(first, headerTag, lqtRotArg);
+	dT = record.deltaT;
+	
+	
+	// Calculate Indexing of SAC Data Data
+	// BUGGY Initialization of nNoiseTrace Captured.
+	//   :: Initialize nNoiseTrace only for records with tagged headers. 
+	nEventTrace = (tEventTrace) / (record.deltaT);
+	tNoiseTrace = record.timeTag - record.timeStart - 3; // bias it by 3 sec
+	nNoiseTrace = (tNoiseTrace) / (record.deltaT);
+	nMax = MAX(nEventTrace, nNoiseTrace);
+	
+	
+	/* Define pad length based on event number, to power of 2
+	 Note here I pick maximum length of either the event or noise window
+	 */
+	
+	int expo = int(log2(nMax-1)) + 1;
+	nPad = pow(2.0, expo);					// Crucial Not to Re-initialize Here.
+											// This is a class object.
+	
+	// Use Only Records that Pass Quality Check,
+	bool flgChkMigrate = FALSE;
+	if (ROUTECODE >= MWMAZIEPIC && ROUTECODE <= FREQMIGRATEHARMONIC) {
+		flgChkMigrate = TRUE;
+	}
+	stageRecords(allRecords, flgChkMigrate);
+	// Call Appropriate Stack Routine ...
+	Router(ROUTECODE, outfn, allRecords);
+
+	
+	
+};
+
+
+// Constructor for Azimuth Stacking ...
+RFrouter::RFrouter(char* eventsfn, char* outfn, float timeWin, float Fmax, float lqtArg, int hTag, int stckArg, int migArg, char* velfn, int ROUTECODE, float bzmin, float bzmax, float bzinc, int bsze, bool getVbose)
+:tEventTrace(timeWin), lqtRotArg(lqtArg), headerTag(hTag), Fcutoff(Fmax), nBoot(stckArg), targetDepthKm(migArg), velocityfn(velfn), isAzim(true), isEpic(false), bazmin(bzmin), bazmax(bzmax), bazinc(bzinc), binsize(bsze), getVerbose(getVbose){
+	
+	//cout << "You just called the Azimuthal Stacking Constructor. WIP" << endl;
+	
+	// Pick First Record and Calculate timing details.
+	// Initialize these values in class object for router...
+	RecordList allRecords(eventsfn, timeWin, Fcutoff);
+	
+
+	std::string first;
+	first.assign(allRecords.recordname[0]);
+	Sacread record(first, headerTag, lqtRotArg);
+	dT = record.deltaT;
+	
+	
+	// Calculate Indexing of SAC Data Data
+	tNoiseTrace = record.timeTag - record.timeStart - 3; // bias it by 3 sec
+	nEventTrace = (tEventTrace) / (record.deltaT);
+	nNoiseTrace = (tNoiseTrace) / (record.deltaT);
+	nMax = MAX(nEventTrace, nNoiseTrace);
+	
+	
+	/* Define pad length based on event number, to power of 2
+	 Note here I pick maximum length of either the event or noise window
+	 */
+	
+	int expo = int(log2(nMax-1)) + 1;
+	nPad = pow(2.0, expo);				// Crucial Not to Re-initialize Here.
+	
+	// Use Only Records that Pass Quality Check,
+	bool flgChkMigrate = FALSE;
+	if (ROUTECODE >= MWMAZIEPIC && ROUTECODE <= FREQMIGRATEHARMONIC) {
+		flgChkMigrate = TRUE;
+	}
+	stageRecords(allRecords, flgChkMigrate);
+	// Call Appropriate Stack Routine
+	Router(ROUTECODE, outfn, allRecords);
+}
+
+
+// Constructor for Epicentral Stacking ...
+RFrouter::RFrouter(char* eventsfn, char* outfn, float timeWin, float Fmax, float lqtArg, int hTag, int stckArg, int migArg, char* velfn, int ROUTECODE, float epbzmin, float epbzmax, float epmin, float epmax, float epinc, int bsze, bool getVbose)
+:tEventTrace(timeWin), lqtRotArg(lqtArg), headerTag(hTag), Fcutoff(Fmax), nBoot(stckArg),  targetDepthKm(migArg), velocityfn(velfn), isAzim(false), isEpic(true), epbazmin(epbzmin), epbazmax(epbzmax), epicmin(epmin), epicmax(epmax), epicinc(epinc), binsize(bsze), getVerbose(getVbose){
+	
+	//cout << "You just called the Epicentral Stacking Constructor. WIP" << endl;
+	
+	// Pick First Record and Calculate timing details.
+	// Initialize these values in class object for router...
+	RecordList allRecords(eventsfn, timeWin, Fcutoff);
+	
+
+	std::string first;
+	first.assign(allRecords.recordname[0]);
+	Sacread record(first, headerTag, lqtRotArg);
+	dT = record.deltaT;
+	
+	
+	// Calculate Indexing of SAC Data Data
+	tNoiseTrace = record.timeTag - record.timeStart - 3; // bias it by 3 sec
+	nEventTrace = (tEventTrace) / (record.deltaT);
+	nNoiseTrace = (tNoiseTrace) / (record.deltaT);
+	nMax = MAX(nEventTrace, nNoiseTrace);
+	
+	
+	/* Define pad length based on event number, to power of 2
+	 Note here I pick maximum length of either the event or noise window
+	 */
+	
+	int expo = int(log2(nMax-1)) + 1;
+	nPad = pow(2.0, expo);				// Crucial Not to Re-initialize Here.
+	
+	
+	// Use Only Records that Pass Quality Check,
+	bool flgChkMigrate = FALSE;
+	if (ROUTECODE >= MWMAZIEPIC && ROUTECODE <= FREQMIGRATEHARMONIC) {
+		flgChkMigrate = TRUE;
+	}
+	stageRecords(allRecords, flgChkMigrate);
+	// Call Appropriate Stack Routine.
+	Router(ROUTECODE, outfn, allRecords);
+}
+
+
+void RFrouter::stageRecords(RecordList& parseRecords, bool flgChkMigrate){
+	
+	// Added an option to check that records can be migrated: flgChkMigrate
+	MigrationParams velModel(velocityfn);
+	
+
+	if (getVerbose) cout << "Staging Records using tagged headers" <<
+		"Total no of records: " << parseRecords.nTotrec << endl;
+	
+	/* Scan through Each SAC file and reconstitute record list based on
+	 header entry. If entry not set, then skip record and put name in new record list
+	 */
+	for (int irec =0; irec < parseRecords.nTotrec; irec++) {
+		Sacread record = Sacread(parseRecords.recordname[irec], headerTag, lqtRotArg);
+		
+		tNoiseTrace = record.timeTag - record.timeStart - 3;
+		int checkNoiseTrace =  (tNoiseTrace) / (record.deltaT);
+		
+		/* Skip record with untagged field. If Tagged, Check to see that there's enough data for time window.
+		 VERY IMPORTANT!!! USE record.timeTag and deltaT to do this.*/
+		
+		double timeShiftRight = 0.0;
+
+		if (flgChkMigrate) {
+			double rayParam = double(record.raySlowness);
+			
+			// Get time shift ... If ray is trapped then remover record ...
+			// If looking for time delay for vertically impiging ray,
+			// Use rayParam equals 1. since cos zero = 1.
+			timeShiftRight = velModel.getTimeDelayPs(targetDepthKm, rayParam);
+		}
+		
+		
+		if (record.timeTag > 0 && timeShiftRight >= 0.0 ) {
+			if( getVerbose) cout << "Record: " << irec+1 << " has the header no:  "<< headerTag << " Tagged " <<  "PhaseName: " << record.phaseName << endl;
+			
+			bool enoughDataEvent = (record.DataCmps.ncols() - ((record.timeTag - record.timeStart) / record.deltaT) ) >= nEventTrace;
+			bool enoughDataNoise = ( (record.timeTag - record.timeStart) / record.deltaT ) >= checkNoiseTrace ;
+			
+			
+			if (enoughDataNoise && enoughDataEvent ) {
+				
+				parseRecords.passNew(irec);
+				// Pass Record only if there's enough data, Obviously!!
+				// Less obvious... Only update nNoise if data is good.
+				tNoiseTrace = record.timeTag - record.timeStart - 3; //bias it by 3 sec
+				nNoiseTrace = (tNoiseTrace) / (record.deltaT);
+			}
+			if ( !enoughDataNoise || !enoughDataEvent) {
+				if (getVerbose) cout << "Buggy data. Here is the cause of the Segmentation fault" << endl;
+			}
+			
+		}else if (record.timeTag <= 0) {
+			// Update here if
+			if( getVerbose) cout << "Header no:  "<< headerTag << " is not tagged for record: " << irec+1 << endl;
+		} else if (timeShiftRight < 0.0) {
+			if( getVerbose) cout << "Record removed because earthquake is trapped at  "<< targetDepthKm << " for Record: " << irec+1 << endl;
+		}
+		
+		
+	}
+	
+	// Initialize All Header Variables.
+	parseRecords.initHeaders();
+	
+	if (getVerbose) cout << "Total Good Records: " << parseRecords.nGoodrec << endl ;
+		
+	
+	
+}
+
+
+void RFrouter::Router(int ROUTECODE, char* outfn, RecordList& allRecords){
+	switch (ROUTECODE) {
+		case SIMPLEAZIMEPIC:
+			cout << "Routing... Azim-Epic Stack Without Migration.." << endl;
+			callAzimEpicStack(outfn, allRecords);
+			break;
+		case SIMPLEHARMONIC:
+			cout << "Routing ... Harmonic Stack Without Migration.." << endl;
+			callHarmonicStack(outfn, allRecords);
+			break;
+		case MWMAZIEPIC:
+			cout << "Routing ... Azim-Epic Stack With Moving Window Migration" << endl;
+			callAzimEpicMWMStack(outfn, allRecords);
+			break;
+		case MWMHARMONIC:
+			break;
+		case FREQMIGRATEAZIMEPIC:
+			break;
+		case FREQMIGRATEHARMONIC:
+			break;
+		case ECCAZIMEPIC:
+			break;
+		case ECCHARMONIC:
+			break;
+		case MOHOREVERBPSMS:
+		{
+			cout << "Routing ... Azim-Epic Stack Migrating Reverberated Phase PpSms" << endl;
+			int setDoubleP = 0;
+			callAzimEpicMOHOREVERBstack(outfn, allRecords, setDoubleP);
+			break;
+		}
+		case MOHOREVERBPPMS:
+		{
+			cout << "Routing ... Azim-Epic Stack Migrating Reverberated Phase PpPms" << endl;
+			int setDoubleP = 1;
+			callAzimEpicMOHOREVERBstack(outfn, allRecords, setDoubleP);
+			break;
+		}	
+		default:
+			break;
+	}
+	
+}
+
+void RFrouter::callHarmonicStack(char* outfn, RecordList& parseRecords){
+	
+	
+	Mat3DDoub noiseTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DDoub postEventTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DCmplx RFTrace(parseRecords.nGoodrec, 2, nPad);
+	Mat3DDoub deltaRFTrace(parseRecords.nGoodrec, 2, nPad);
+	
+	
+	// Build RFs Here .... Then Parse into Harmonic Stack...  
+	for (int irec =0; irec < parseRecords.nGoodrec; irec++) {
+		
+		Sacread record = Sacread(parseRecords.goodRecordname[irec], headerTag, lqtRotArg);
+		
+		/*
+		 **** URGENT UPDATE REQUIRED!!! This construction fails if record length following header is too small,
+		 ****							Make check during record pass
+		 Construct noiseTrace & postEventTrace
+		 I do this for all the components: vertical, radial & transpose.
+		 ? Do I need routine for clarity in code Prose?
+		 */
+		
+		for (int cmp = 0; cmp < 3; cmp++) {
+			
+			for (int iter=0; iter < nPad; iter++) {
+				if (iter < nNoiseTrace) {
+					noiseTrace[irec][cmp][iter] = record.DataCmps[cmp][nNoiseTrace - iter];
+				} else {
+					noiseTrace[irec][cmp][iter] = 0.0;
+				}
+				
+			}
+			
+			
+			int posEventNxt, posEventStrt = nNoiseTrace;
+			for (int iter=0; iter < nPad; iter++) {
+				posEventNxt = posEventStrt + iter;
+				if ( iter < nEventTrace) {
+					postEventTrace[irec][cmp][iter] = record.DataCmps[cmp][posEventNxt];
+				} else {
+					postEventTrace[irec][cmp][iter] = 0.0;
+				}
+			}
+			
+		}
+		
+		
+		parseRecords.Azim[irec] = record.recBaz;
+		parseRecords.Epic[irec] = record.recEpic;
+		parseRecords.EvLong[irec] = record.evLon;
+		parseRecords.EvLat[irec] = record.evLat;
+		parseRecords.EvMag[irec] = record.evMag;
+		
+		
+		/*Pass Record to MTC driver, computes Spectral Estimates*/
+		/*Args: Noise, Event, p, k, fmax */
+		MTCDriver MTCVals(irec, noiseTrace, postEventTrace, 2.5, 3, Fcutoff, record.deltaT,nNoiseTrace,nEventTrace);
+		// Code above doesn't work .. Check type
+		
+		if (getVerbose) cout << "Calculting RF for record:  " << irec+1 << endl;
+		MTCVals.addRF(RFTrace, irec);
+		MTCVals.addCoher(deltaRFTrace, irec);
+		
+		
+	}
+	
+	
+	// Dump RFs into Harmonic Stack ...
+	{
+		
+		int flagFile = CMPSHARMONIC;
+		
+		int nRecs = parseRecords.nGoodrec, ncmps = 2, nFreq = nPad;
+		HarmonicStack testHStack(nPad, ncmps, nRecs, parseRecords.Azim, parseRecords.Epic, Fcutoff, dT, 10.0,  30.0, nBoot);
+		testHStack.regressNBootTimes(RFTrace, deltaRFTrace);
+		testHStack.print(outfn, flagFile);
+		//logFile << testHStack.logReport;
+	}
+	
+
+	
+}
+
+void RFrouter::callAzimEpicStack(char* outfn, RecordList& parseRecords){
+	
+	
+	Mat3DDoub noiseTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DDoub postEventTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DCmplx RFTrace(parseRecords.nGoodrec, 2, nPad);
+	Mat3DDoub deltaRFTrace(parseRecords.nGoodrec, 2, nPad);
+
+	// Build RFs Here .... Then Parse into TraceStack...
+	for (int irec =0; irec < parseRecords.nGoodrec; irec++) {
+		
+		
+		Sacread record = Sacread(parseRecords.goodRecordname[irec], headerTag, lqtRotArg);
+		
+		
+		/*
+		 **** URGENT UPDATE REQUIRED!!! This construction fails if record length following header is too small,
+		 ****							Make check during record pass
+		 Construct noiseTrace & postEventTrace
+		 I do this for all the components: vertical, radial & transpose.
+		 ? Do I need routine for clarity in code Prose?
+		 */
+		
+		for (int cmp = 0; cmp < 3; cmp++) {
+			
+			for (int iter=0; iter < nPad; iter++) {
+				if (iter < nNoiseTrace) {
+					noiseTrace[irec][cmp][iter] = record.DataCmps[cmp][nNoiseTrace - iter];
+				} else {
+					noiseTrace[irec][cmp][iter] = 0.0;
+				}
+				
+			}
+			
+			
+			int posEventNxt, posEventStrt = nNoiseTrace;
+			for (int iter=0; iter < nPad; iter++) {
+				posEventNxt = posEventStrt + iter;
+				if ( iter < nEventTrace) {
+					postEventTrace[irec][cmp][iter] = record.DataCmps[cmp][posEventNxt];
+				} else {
+					postEventTrace[irec][cmp][iter] = 0.0;
+				}
+			}
+			
+		}
+		
+
+		parseRecords.Azim[irec] = record.recBaz;
+		parseRecords.Epic[irec] = record.recEpic;
+		parseRecords.EvLong[irec] = record.evLon;
+		parseRecords.EvLat[irec] = record.evLat;
+		parseRecords.EvMag[irec] = record.evMag;
+		
+		
+		/*Pass Record to MTC driver, computes Spectral Estimates*/
+		/*Args: Noise, Event, p, k, fmax */
+		MTCDriver MTCVals(irec, noiseTrace, postEventTrace, 2.5, 3, Fcutoff, record.deltaT,nNoiseTrace,nEventTrace);
+		// Code above doesn't work .. Check type
+		
+		if (getVerbose) cout << "Calculting RF for record:  " << irec+1 << endl;
+		MTCVals.addRF(RFTrace, irec);
+		MTCVals.addCoher(deltaRFTrace, irec);
+		
+		
+	}
+	
+	if (getVerbose) cout << "Done Building RFs " << endl ;
+	
+	// Dump RFs into TraceStack ...
+	
+	
+		
+		if (isAzim) {
+			
+			int flagFile = STACKAZIM;
+			
+			TraceStack azimStack(RFTrace, deltaRFTrace, parseRecords.Azim, parseRecords.Epic, Fcutoff, dT, 10.0,  30.0, binsize);
+			azimStack.stackAzim(bazmax, bazmin, bazinc, RFTrace, deltaRFTrace);
+			azimStack.print(outfn, flagFile);
+			
+			//if (getVerbose) cout << "Done Azim Stacking " << endl ;
+			//if (getVerbose) cout << azimStack.logReport << endl ;
+			//logFile << azimStack.logReport;
+		}
+		
+		
+		
+		if (isEpic) {
+			
+			int flagFile = STACKEPIC;
+			
+			
+			TraceStack epicStack(RFTrace, deltaRFTrace, parseRecords.Azim, parseRecords.Epic,
+								 Fcutoff, dT, 10.0, 30.0, binsize);
+			epicStack.stackEpic(epbazmin, epbazmax, epicmin, epicmax, epicinc,RFTrace, deltaRFTrace);
+			epicStack.print(outfn, flagFile);
+			
+			//if (getVerbose) cout << "Done Epic Stacking " << endl ;
+			//if (getVerbose) cout << epicStack.logReport << endl ;
+			//logFile << epicStack.logReport;
+		}
+		
+		//if (getVerbose) cout << "Done Stacking " << endl ;
+		//logFile << testHStack.logReport;
+	
+	
+	
+	
+}
+
+void RFrouter::callAzimEpicMWMStack(char* outfn, RecordList& parseRecords){
+	
+	
+	Mat3DDoub noiseTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DDoub postEventTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DCmplx RFTrace(parseRecords.nGoodrec, 2, nPad);
+	Mat3DDoub deltaRFTrace(parseRecords.nGoodrec, 2, nPad);
+	
+	
+	// Use target depth to find layer within the modelStack where migration should begin
+	// This layer will then become the bottomStack for migration.
+	MigrationParams velModel(velocityfn);
+	double timeShiftRight = 0.0;
+	
+	// timeshiftRight: The event window is moved(moving window migration - MWM)
+	// depending on:
+	// 1. The time scaling implied by the rayParameter
+	// 2. The timedelay for each velocity layer and
+	
+
+	// Compute timeShiftRight here...
+	for (int irec =0; irec < parseRecords.nGoodrec; irec++) {
+		
+		
+		Sacread record =
+					Sacread(parseRecords.goodRecordname[irec], headerTag, lqtRotArg);
+		
+		double rayParam = double(record.raySlowness);				// in sec/Km
+		
+		
+		// Get time shift ... If ray is trapped then remover record ...
+		// If looking for time delay for vertically impiging ray,
+		// Use rayParam equals 1. since cos zero = 1.
+		timeShiftRight = velModel.getTimeDelayPs(targetDepthKm, rayParam);
+		cout << "Time Delay: " << timeShiftRight << "s" << endl;
+		
+		
+		// Noise Is Noise. Just Update Noise ...
+		for (int cmp = 0; cmp < 3; cmp++) {
+			
+			for (int iter=0; iter < nPad; iter++) {
+				if (iter < nNoiseTrace) {
+					noiseTrace[irec][cmp][iter] = record.DataCmps[cmp][nNoiseTrace - iter];
+				} else {
+					noiseTrace[irec][cmp][iter] = 0.0;
+				}
+				
+			}
+			
+			// Data is Migrated Using timeShift ... Only for R, T. Skip shift for Z.
+			int nShift = (timeShiftRight) / (record.deltaT);
+			if (cmp == 0) {
+				nShift = 0;
+			}
+			int posEventNxt, posEventStrt = nNoiseTrace + nShift;
+			
+			for (int iter=0; iter < nPad; iter++) {
+				posEventNxt = posEventStrt + iter;
+				if ( iter < nEventTrace) {
+					postEventTrace[irec][cmp][iter] = record.DataCmps[cmp][posEventNxt];
+				} else {
+					postEventTrace[irec][cmp][iter] = 0.0;
+				}
+			}
+			
+		}
+		
+		parseRecords.setHeaders(record.recBaz, record.recEpic, record.evLon,
+								record.evLat, record.evMag, irec);
+		
+		/*Pass Record to MTC driver, computes Spectral Estimates*/
+		/*Args: Noise, Event, p, k, fmax */
+		MTCDriver MTCVals(irec, noiseTrace, postEventTrace, 2.5, 3, Fcutoff, record.deltaT,nNoiseTrace,nEventTrace);
+		
+		if (getVerbose) cout << "Calculting RF for record:  " << irec+1 << endl;
+		MTCVals.addRF(RFTrace, irec);
+		MTCVals.addCoher(deltaRFTrace, irec);
+		
+
+	
+		
+		
+		
+	}
+	
+	if (getVerbose) cout << "No of Layers + Halfspace is = " << velModel.getNoLayers() + 1 << endl;
+	
+	if (getVerbose) cout << "Done Building RFs " << endl ;
+	
+	// Dump RFs into TraceStack ...
+	
+	string fNameUpdate(outfn);
+	fNameUpdate.append("Migrate");
+	
+	outfn = const_cast<char*>( fNameUpdate.c_str() );
+	
+	if (isAzim) {
+		
+		int flagFile = STACKAZIM;
+		
+		TraceStack azimStack(RFTrace, deltaRFTrace, parseRecords.Azim, parseRecords.Epic, Fcutoff, dT, 10.0,  30.0, binsize);
+		azimStack.stackAzim(bazmax, bazmin, bazinc, RFTrace, deltaRFTrace);
+		azimStack.print(outfn, flagFile);
+		
+		//if (getVerbose) cout << "Done Azim Stacking " << endl ;
+		//if (getVerbose) cout << azimStack.logReport << endl ;
+		//logFile << azimStack.logReport;
+	}
+	
+	
+	
+	if (isEpic) {
+		
+		int flagFile = STACKEPIC;
+		
+		
+		TraceStack epicStack(RFTrace, deltaRFTrace, parseRecords.Azim, parseRecords.Epic,
+							 Fcutoff, dT, 10.0, 30.0, binsize);
+		epicStack.stackEpic(epbazmin, epbazmax, epicmin, epicmax, epicinc,RFTrace, deltaRFTrace);
+		epicStack.print(outfn, flagFile);
+		
+		//if (getVerbose) cout << "Done Epic Stacking " << endl ;
+		//if (getVerbose) cout << epicStack.logReport << endl ;
+		//logFile << epicStack.logReport;
+	}
+	
+	//if (getVerbose) cout << "Done Stacking " << endl ;
+	//logFile << testHStack.logReport;
+	
+
+
+}
+
+void RFrouter::callAzimEpicMOHOREVERBstack(char* outfn, RecordList& parseRecords, int phaseFlag){
+	
+	Mat3DDoub noiseTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DDoub postEventTrace(parseRecords.nGoodrec, 3, nPad);
+	Mat3DCmplx RFTrace(parseRecords.nGoodrec, 2, nPad);
+	Mat3DDoub deltaRFTrace(parseRecords.nGoodrec, 2, nPad);
+	
+	
+	// Use target depth to find layer within the modelStack where migration should begin
+	// This layer will then become the bottomStack for migration.
+	MigrationParams velModel(velocityfn);
+	double timeShiftRight = 0.0;
+	
+	// timeshiftRight: The event window is moved(moving window migration - MWM)
+	// depending on:
+	// 1. The time scaling implied by the rayParameter
+	// 2. The timedelay for each velocity layer and
+	
+	
+	// Compute timeShiftRight here...
+	for (int irec =0; irec < parseRecords.nGoodrec; irec++) {
+		
+		
+		Sacread record =
+		Sacread(parseRecords.goodRecordname[irec], headerTag, lqtRotArg);
+		
+		double rayParam = double(record.raySlowness);				// in sec/Km
+		
+		
+		// Get time shift ... If ray is trapped then remover record ...
+		// If looking for time delay for vertically impiging ray,
+		// Use rayParam equals 1. since cos zero = 1.
+		switch (phaseFlag) {
+			case 0:
+				timeShiftRight = velModel.getTimeDelayPpSms(targetDepthKm, rayParam);
+				cout << "Time Delay PpSms: " << timeShiftRight << "s" << endl;
+				break;
+			case 1:
+				timeShiftRight = velModel.getTimeDelayPpPms(targetDepthKm, rayParam);
+				cout << "Time Delay PpPms: " << timeShiftRight << "s" << endl;
+				break;
+			default:
+				break;
+		}
+		
+		
+		
+		// Noise Is Noise. Just Update Noise ...
+		for (int cmp = 0; cmp < 3; cmp++) {
+			
+			for (int iter=0; iter < nPad; iter++) {
+				if (iter < nNoiseTrace) {
+					noiseTrace[irec][cmp][iter] = record.DataCmps[cmp][nNoiseTrace - iter];
+				} else {
+					noiseTrace[irec][cmp][iter] = 0.0;
+				}
+				
+			}
+			
+			// Data is Migrated Using timeShift ... Only for R, T. Skip shift for Z.
+			int nShift = (timeShiftRight) / (record.deltaT);
+			if (cmp == 0) {
+				nShift = 0;
+			}
+			int posEventNxt, posEventStrt = nNoiseTrace + nShift;
+			
+			for (int iter=0; iter < nPad; iter++) {
+				posEventNxt = posEventStrt + iter;
+				if ( iter < nEventTrace) {
+					postEventTrace[irec][cmp][iter] = record.DataCmps[cmp][posEventNxt];
+				} else {
+					postEventTrace[irec][cmp][iter] = 0.0;
+				}
+			}
+			
+		}
+		
+		parseRecords.setHeaders(record.recBaz, record.recEpic, record.evLon,
+								record.evLat, record.evMag, irec);
+		
+		/*Pass Record to MTC driver, computes Spectral Estimates*/
+		/*Args: Noise, Event, p, k, fmax */
+		MTCDriver MTCVals(irec, noiseTrace, postEventTrace, 2.5, 3, Fcutoff, record.deltaT,nNoiseTrace,nEventTrace);
+		
+		if (getVerbose) cout << "Calculting RF for record:  " << irec+1 << endl;
+		MTCVals.addRF(RFTrace, irec);
+		MTCVals.addCoher(deltaRFTrace, irec);
+		
+		
+		
+		
+		
+		
+	}
+	
+	if (getVerbose) cout << "No of Layers + Halfspace is = " << velModel.getNoLayers() + 1 << endl;
+	
+	if (getVerbose) cout << "Done Building RFs " << endl ;
+	
+	// Dump RFs into TraceStack ...
+	
+	string fNameUpdate(outfn);
+	fNameUpdate.append("MohoMigrate");
+	
+	outfn = const_cast<char*>( fNameUpdate.c_str() );
+	
+	if (isAzim) {
+		
+		int flagFile = STACKAZIM;
+		
+		TraceStack azimStack(RFTrace, deltaRFTrace, parseRecords.Azim, parseRecords.Epic, Fcutoff, dT, 10.0,  30.0, binsize);
+		azimStack.stackAzim(bazmax, bazmin, bazinc, RFTrace, deltaRFTrace);
+		azimStack.print(outfn, flagFile);
+		
+		//if (getVerbose) cout << "Done Azim Stacking " << endl ;
+		//if (getVerbose) cout << azimStack.logReport << endl ;
+		//logFile << azimStack.logReport;
+	}
+	
+	
+	
+	if (isEpic) {
+		
+		int flagFile = STACKEPIC;
+		
+		
+		TraceStack epicStack(RFTrace, deltaRFTrace, parseRecords.Azim, parseRecords.Epic,
+							 Fcutoff, dT, 10.0, 30.0, binsize);
+		epicStack.stackEpic(epbazmin, epbazmax, epicmin, epicmax, epicinc,RFTrace, deltaRFTrace);
+		epicStack.print(outfn, flagFile);
+		
+		//if (getVerbose) cout << "Done Epic Stacking " << endl ;
+		//if (getVerbose) cout << epicStack.logReport << endl ;
+		//logFile << epicStack.logReport;
+	}
+	
+	//if (getVerbose) cout << "Done Stacking " << endl ;
+	//logFile << testHStack.logReport;
+	
+	
+}
+
+
+
+
+

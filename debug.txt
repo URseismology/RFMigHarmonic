@@ -1,0 +1,7687 @@
+Backward compatibility: run LQT rotation
+
+
+
+***ScatteredWaveAnalysis(RF)*** Created by Tolulope Olugboji. 
+************************** Copyright 2010 Yale University. All rights reserved. 
+**Option: Switch for LQT rotation activated with incidence angle bias: 1
+**Option: Direct Phase Migration with model: /Users/tmo22/Documents/JapaneseProject/FwrdModels/T06.txt
+**Option: Azimuth-EpicentralDist Stack Selected
+[Azimuth Epicentral Stack Called with MWM migration]
+Staging Records using tagged headersTotal no of records: 235
+Record: 1 has the header no:  1 Tagged PhaseName: P       
+Record: 2 has the header no:  1 Tagged PhaseName: P       
+Record: 3 has the header no:  1 Tagged PhaseName: P       
+Record: 4 has the header no:  1 Tagged PhaseName: P       
+Record: 5 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 6
+Record: 7 has the header no:  1 Tagged PhaseName: Pn      
+Record: 8 has the header no:  1 Tagged PhaseName: Pn      
+Record: 9 has the header no:  1 Tagged PhaseName: P       
+Record: 10 has the header no:  1 Tagged PhaseName: P       
+Record: 11 has the header no:  1 Tagged PhaseName: P       
+Record: 12 has the header no:  1 Tagged PhaseName: P       
+Record: 13 has the header no:  1 Tagged PhaseName: Pn      
+Record: 14 has the header no:  1 Tagged PhaseName: Pn      
+Record: 15 has the header no:  1 Tagged PhaseName: P       
+Record: 16 has the header no:  1 Tagged PhaseName: Pn      
+Record: 17 has the header no:  1 Tagged PhaseName: P       
+Record: 18 has the header no:  1 Tagged PhaseName: P       
+Record: 19 has the header no:  1 Tagged PhaseName: Pn      
+Record: 20 has the header no:  1 Tagged PhaseName: Pn      
+Record: 21 has the header no:  1 Tagged PhaseName: P       
+Record: 22 has the header no:  1 Tagged PhaseName: P       
+Record: 23 has the header no:  1 Tagged PhaseName: P       
+Record: 24 has the header no:  1 Tagged PhaseName: P       
+Record: 25 has the header no:  1 Tagged PhaseName: Pn      
+Record: 26 has the header no:  1 Tagged PhaseName: Pn      
+Record: 27 has the header no:  1 Tagged PhaseName: PKPbc   
+Record: 28 has the header no:  1 Tagged PhaseName: P       
+Record: 29 has the header no:  1 Tagged PhaseName: P       
+Record: 30 has the header no:  1 Tagged PhaseName: Pn      
+Record: 31 has the header no:  1 Tagged PhaseName: Pn      
+Record: 32 has the header no:  1 Tagged PhaseName: Pdiff   
+Record: 33 has the header no:  1 Tagged PhaseName: Pn      
+Record: 34 has the header no:  1 Tagged PhaseName: P       
+Record: 35 has the header no:  1 Tagged PhaseName: Pn      
+Record: 36 has the header no:  1 Tagged PhaseName: Pn      
+Record: 37 has the header no:  1 Tagged PhaseName: P       
+Record: 38 has the header no:  1 Tagged PhaseName: Pn      
+Record: 39 has the header no:  1 Tagged PhaseName: P       
+Record: 40 has the header no:  1 Tagged PhaseName: P       
+Record: 41 has the header no:  1 Tagged PhaseName: P       
+Record: 42 has the header no:  1 Tagged PhaseName: P       
+Record: 43 has the header no:  1 Tagged PhaseName: P       
+Record: 44 has the header no:  1 Tagged PhaseName: P       
+Record: 45 has the header no:  1 Tagged PhaseName: P       
+Record: 46 has the header no:  1 Tagged PhaseName: Pn      
+Record: 47 has the header no:  1 Tagged PhaseName: P       
+Record: 48 has the header no:  1 Tagged PhaseName: P       
+Record: 49 has the header no:  1 Tagged PhaseName: P       
+Record: 50 has the header no:  1 Tagged PhaseName: P       
+Record: 51 has the header no:  1 Tagged PhaseName: P       
+Record: 52 has the header no:  1 Tagged PhaseName: P       
+Record: 53 has the header no:  1 Tagged PhaseName: P       
+Record: 54 has the header no:  1 Tagged PhaseName: P       
+Record: 55 has the header no:  1 Tagged PhaseName: Pn      
+Record: 56 has the header no:  1 Tagged PhaseName: Pn      
+Record: 57 has the header no:  1 Tagged PhaseName: PKPdf   
+Record: 58 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 59
+Record: 60 has the header no:  1 Tagged PhaseName: Pn      
+Record: 61 has the header no:  1 Tagged PhaseName: P       
+Record: 62 has the header no:  1 Tagged PhaseName: P       
+Record: 63 has the header no:  1 Tagged PhaseName: P       
+Record: 64 has the header no:  1 Tagged PhaseName: P       
+Record: 65 has the header no:  1 Tagged PhaseName: P       
+Record: 66 has the header no:  1 Tagged PhaseName: Pn      
+Record: 67 has the header no:  1 Tagged PhaseName: Pn      
+Record: 68 has the header no:  1 Tagged PhaseName: Pn      
+Record: 69 has the header no:  1 Tagged PhaseName: P       
+Record: 70 has the header no:  1 Tagged PhaseName: P       
+Record: 71 has the header no:  1 Tagged PhaseName: P       
+Record: 72 has the header no:  1 Tagged PhaseName: P       
+Record: 73 has the header no:  1 Tagged PhaseName: Pn      
+Record: 74 has the header no:  1 Tagged PhaseName: Pn      
+Record: 75 has the header no:  1 Tagged PhaseName: P       
+Record: 76 has the header no:  1 Tagged PhaseName: P       
+Record: 77 has the header no:  1 Tagged PhaseName: P       
+Record: 78 has the header no:  1 Tagged PhaseName: P       
+Record: 79 has the header no:  1 Tagged PhaseName: P       
+Record: 80 has the header no:  1 Tagged PhaseName: P       
+Record: 81 has the header no:  1 Tagged PhaseName: Pn      
+Record: 82 has the header no:  1 Tagged PhaseName: Pn      
+Record: 83 has the header no:  1 Tagged PhaseName: P       
+Record: 84 has the header no:  1 Tagged PhaseName: Pn      
+Record: 85 has the header no:  1 Tagged PhaseName: P       
+Record: 86 has the header no:  1 Tagged PhaseName: Pn      
+Record: 87 has the header no:  1 Tagged PhaseName: Pn      
+Record: 88 has the header no:  1 Tagged PhaseName: P       
+Record: 89 has the header no:  1 Tagged PhaseName: P       
+Record: 90 has the header no:  1 Tagged PhaseName: Pn      
+Record: 91 has the header no:  1 Tagged PhaseName: P       
+Record: 92 has the header no:  1 Tagged PhaseName: Pn      
+Record: 93 has the header no:  1 Tagged PhaseName: Pn      
+Record: 94 has the header no:  1 Tagged PhaseName: P       
+Record: 95 has the header no:  1 Tagged PhaseName: Pn      
+Header no:  1 is not tagged for record: 96
+Record: 97 has the header no:  1 Tagged PhaseName: Pn      
+Record: 98 has the header no:  1 Tagged PhaseName: Pn      
+Record: 99 has the header no:  1 Tagged PhaseName: P       
+Record: 100 has the header no:  1 Tagged PhaseName: P       
+Record: 101 has the header no:  1 Tagged PhaseName: P       
+Record: 102 has the header no:  1 Tagged PhaseName: Pn      
+Record: 103 has the header no:  1 Tagged PhaseName: Pn      
+Header no:  1 is not tagged for record: 104
+Record: 105 has the header no:  1 Tagged PhaseName: P       
+Record: 106 has the header no:  1 Tagged PhaseName: P       
+Record: 107 has the header no:  1 Tagged PhaseName: P       
+Record: 108 has the header no:  1 Tagged PhaseName: P       
+Record: 109 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 110
+Record: 111 has the header no:  1 Tagged PhaseName: P       
+Record: 112 has the header no:  1 Tagged PhaseName: P       
+Record: 113 has the header no:  1 Tagged PhaseName: Pn      
+Record: 114 has the header no:  1 Tagged PhaseName: P       
+Record: 115 has the header no:  1 Tagged PhaseName: Pn      
+Record: 116 has the header no:  1 Tagged PhaseName: Pn      
+Record: 117 has the header no:  1 Tagged PhaseName: P       
+Record: 118 has the header no:  1 Tagged PhaseName: P       
+Record: 119 has the header no:  1 Tagged PhaseName: P       
+Record: 120 has the header no:  1 Tagged PhaseName: P       
+Record: 121 has the header no:  1 Tagged PhaseName: P       
+Record: 122 has the header no:  1 Tagged PhaseName: Pn      
+Record: 123 has the header no:  1 Tagged PhaseName: Pn      
+Record: 124 has the header no:  1 Tagged PhaseName: P       
+Record: 125 has the header no:  1 Tagged PhaseName: Pn      
+Record: 126 has the header no:  1 Tagged PhaseName: P       
+Record: 127 has the header no:  1 Tagged PhaseName: P       
+Record: 128 has the header no:  1 Tagged PhaseName: P       
+Record: 129 has the header no:  1 Tagged PhaseName: PKPdf   
+Record: 130 has the header no:  1 Tagged PhaseName: P       
+Record: 131 has the header no:  1 Tagged PhaseName: P       
+Record: 132 has the header no:  1 Tagged PhaseName: P       
+Record: 133 has the header no:  1 Tagged PhaseName: Pn      
+Record: 134 has the header no:  1 Tagged PhaseName: P       
+Record: 135 has the header no:  1 Tagged PhaseName: P       
+Record: 136 has the header no:  1 Tagged PhaseName: P       
+Record: 137 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 138
+Record: 139 has the header no:  1 Tagged PhaseName: P       
+Record: 140 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 141
+Record: 142 has the header no:  1 Tagged PhaseName: P       
+Record: 143 has the header no:  1 Tagged PhaseName: P       
+Record: 144 has the header no:  1 Tagged PhaseName: Pn      
+Record: 145 has the header no:  1 Tagged PhaseName: P       
+Record: 146 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 147
+Record: 148 has the header no:  1 Tagged PhaseName: P       
+Record: 149 has the header no:  1 Tagged PhaseName: P       
+Record: 150 has the header no:  1 Tagged PhaseName: P       
+Record: 151 has the header no:  1 Tagged PhaseName: Pn      
+Record: 152 has the header no:  1 Tagged PhaseName: PKPdf   
+Record: 153 has the header no:  1 Tagged PhaseName: PKPdf   
+Record: 154 has the header no:  1 Tagged PhaseName: P       
+Record: 155 has the header no:  1 Tagged PhaseName: P       
+Record: 156 has the header no:  1 Tagged PhaseName: Pn      
+Record: 157 has the header no:  1 Tagged PhaseName: P       
+Record: 158 has the header no:  1 Tagged PhaseName: P       
+Record: 159 has the header no:  1 Tagged PhaseName: Pn      
+Record: 160 has the header no:  1 Tagged PhaseName: P       
+Record: 161 has the header no:  1 Tagged PhaseName: P       
+Record: 162 has the header no:  1 Tagged PhaseName: P       
+Record: 163 has the header no:  1 Tagged PhaseName: P       
+Record: 164 has the header no:  1 Tagged PhaseName: P       
+Record: 165 has the header no:  1 Tagged PhaseName: P       
+Record: 166 has the header no:  1 Tagged PhaseName: Pn      
+Record: 167 has the header no:  1 Tagged PhaseName: P       
+Record: 168 has the header no:  1 Tagged PhaseName: P       
+Record: 169 has the header no:  1 Tagged PhaseName: P       
+Record: 170 has the header no:  1 Tagged PhaseName: P       
+Record: 171 has the header no:  1 Tagged PhaseName: P       
+Record: 172 has the header no:  1 Tagged PhaseName: P       
+Record: 173 has the header no:  1 Tagged PhaseName: Pn      
+Header no:  1 is not tagged for record: 174
+Record: 175 has the header no:  1 Tagged PhaseName: P       
+Record: 176 has the header no:  1 Tagged PhaseName: Pn      
+Record: 177 has the header no:  1 Tagged PhaseName: P       
+Record: 178 has the header no:  1 Tagged PhaseName: P       
+Record: 179 has the header no:  1 Tagged PhaseName: Pn      
+Record: 180 has the header no:  1 Tagged PhaseName: Pn      
+Record: 181 has the header no:  1 Tagged PhaseName: Pn      
+Record: 182 has the header no:  1 Tagged PhaseName: P       
+Record: 183 has the header no:  1 Tagged PhaseName: P       
+Record: 184 has the header no:  1 Tagged PhaseName: P       
+Record: 185 has the header no:  1 Tagged PhaseName: P       
+Record: 186 has the header no:  1 Tagged PhaseName: P       
+Record: 187 has the header no:  1 Tagged PhaseName: PKPdf   
+Record: 188 has the header no:  1 Tagged PhaseName: P       
+Record: 189 has the header no:  1 Tagged PhaseName: P       
+Record: 190 has the header no:  1 Tagged PhaseName: Pn      
+Record: 191 has the header no:  1 Tagged PhaseName: P       
+Record: 192 has the header no:  1 Tagged PhaseName: P       
+Record: 193 has the header no:  1 Tagged PhaseName: Pn      
+Record: 194 has the header no:  1 Tagged PhaseName: Pn      
+Record: 195 has the header no:  1 Tagged PhaseName: Pn      
+Record: 196 has the header no:  1 Tagged PhaseName: Pn      
+Record: 197 has the header no:  1 Tagged PhaseName: P       
+Record: 198 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 199
+Record: 200 has the header no:  1 Tagged PhaseName: P       
+Record: 201 has the header no:  1 Tagged PhaseName: Pn      
+Record: 202 has the header no:  1 Tagged PhaseName: P       
+Record: 203 has the header no:  1 Tagged PhaseName: Pn      
+Record: 204 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 205
+Record: 206 has the header no:  1 Tagged PhaseName: P       
+Record: 207 has the header no:  1 Tagged PhaseName: P       
+Record: 208 has the header no:  1 Tagged PhaseName: P       
+Record: 209 has the header no:  1 Tagged PhaseName: Pn      
+Record: 210 has the header no:  1 Tagged PhaseName: Pn      
+Record: 211 has the header no:  1 Tagged PhaseName: Pn      
+Header no:  1 is not tagged for record: 212
+Record: 213 has the header no:  1 Tagged PhaseName: P       
+Record: 214 has the header no:  1 Tagged PhaseName: Pn      
+Record: 215 has the header no:  1 Tagged PhaseName: P       
+Record: 216 has the header no:  1 Tagged PhaseName: P       
+Record: 217 has the header no:  1 Tagged PhaseName: Pn      
+Record: 218 has the header no:  1 Tagged PhaseName: P       
+Record: 219 has the header no:  1 Tagged PhaseName: P       
+Header no:  1 is not tagged for record: 220
+Record: 221 has the header no:  1 Tagged PhaseName: P       
+Record: 222 has the header no:  1 Tagged PhaseName: P       
+Record: 223 has the header no:  1 Tagged PhaseName: P       
+Record: 224 has the header no:  1 Tagged PhaseName: P       
+Record: 225 has the header no:  1 Tagged PhaseName: P       
+Record: 226 has the header no:  1 Tagged PhaseName: P       
+Record: 227 has the header no:  1 Tagged PhaseName: P       
+Record: 228 has the header no:  1 Tagged PhaseName: P       
+Record: 229 has the header no:  1 Tagged PhaseName: Pn      
+Record: 230 has the header no:  1 Tagged PhaseName: P       
+Record: 231 has the header no:  1 Tagged PhaseName: P       
+Record: 232 has the header no:  1 Tagged PhaseName: P       
+Record: 233 has the header no:  1 Tagged PhaseName: P       
+Record: 234 has the header no:  1 Tagged PhaseName: P       
+Record: 235 has the header no:  1 Tagged PhaseName: P       
+Total Good Records: 222
+Routing ... Azim-Epic Stack With Moving Window Migration
+Time Delay: 0s
+i: 0cmp: 0nse: 1939end: 3139nPad: 2048
+i: 0cmp: 1nse: 1939end: 3139nPad: 2048
+i: 0cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  1
+Time Delay: 0s
+i: 1cmp: 0nse: 1939end: 3139nPad: 2048
+i: 1cmp: 1nse: 1939end: 3139nPad: 2048
+i: 1cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  2
+Time Delay: 0s
+i: 2cmp: 0nse: 1939end: 3139nPad: 2048
+i: 2cmp: 1nse: 1939end: 3139nPad: 2048
+i: 2cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  3
+Time Delay: 0s
+i: 3cmp: 0nse: 1939end: 3139nPad: 2048
+i: 3cmp: 1nse: 1939end: 3139nPad: 2048
+i: 3cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  4
+Time Delay: 0s
+i: 4cmp: 0nse: 1939end: 3139nPad: 2048
+i: 4cmp: 1nse: 1939end: 3139nPad: 2048
+i: 4cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  5
+Time Delay: 0s
+i: 5cmp: 0nse: 1939end: 3139nPad: 2048
+i: 5cmp: 1nse: 1939end: 3139nPad: 2048
+i: 5cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  6
+Time Delay: 0s
+i: 6cmp: 0nse: 1939end: 3139nPad: 2048
+i: 6cmp: 1nse: 1939end: 3139nPad: 2048
+i: 6cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  7
+Time Delay: 0s
+i: 7cmp: 0nse: 1939end: 3139nPad: 2048
+i: 7cmp: 1nse: 1939end: 3139nPad: 2048
+i: 7cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  8
+Time Delay: 0s
+i: 8cmp: 0nse: 1939end: 3139nPad: 2048
+i: 8cmp: 1nse: 1939end: 3139nPad: 2048
+i: 8cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  9
+Time Delay: 0s
+i: 9cmp: 0nse: 1939end: 3139nPad: 2048
+i: 9cmp: 1nse: 1939end: 3139nPad: 2048
+i: 9cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  10
+Time Delay: 0s
+i: 10cmp: 0nse: 1939end: 3139nPad: 2048
+i: 10cmp: 1nse: 1939end: 3139nPad: 2048
+i: 10cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  11
+Time Delay: 0s
+i: 11cmp: 0nse: 1939end: 3139nPad: 2048
+i: 11cmp: 1nse: 1939end: 3139nPad: 2048
+i: 11cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  12
+Time Delay: 0s
+i: 12cmp: 0nse: 1940end: 3140nPad: 2048
+i: 12cmp: 1nse: 1940end: 3140nPad: 2048
+i: 12cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  13
+Time Delay: 0s
+i: 13cmp: 0nse: 1939end: 3139nPad: 2048
+i: 13cmp: 1nse: 1939end: 3139nPad: 2048
+i: 13cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  14
+Time Delay: 0s
+i: 14cmp: 0nse: 1940end: 3140nPad: 2048
+i: 14cmp: 1nse: 1940end: 3140nPad: 2048
+i: 14cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  15
+Time Delay: 0s
+i: 15cmp: 0nse: 1939end: 3139nPad: 2048
+i: 15cmp: 1nse: 1939end: 3139nPad: 2048
+i: 15cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  16
+Time Delay: 0s
+i: 16cmp: 0nse: 1939end: 3139nPad: 2048
+i: 16cmp: 1nse: 1939end: 3139nPad: 2048
+i: 16cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  17
+Time Delay: 0s
+i: 17cmp: 0nse: 1939end: 3139nPad: 2048
+i: 17cmp: 1nse: 1939end: 3139nPad: 2048
+i: 17cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  18
+Time Delay: 0s
+i: 18cmp: 0nse: 1940end: 3140nPad: 2048
+i: 18cmp: 1nse: 1940end: 3140nPad: 2048
+i: 18cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  19
+Time Delay: 0s
+i: 19cmp: 0nse: 1939end: 3139nPad: 2048
+i: 19cmp: 1nse: 1939end: 3139nPad: 2048
+i: 19cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  20
+Time Delay: 0s
+i: 20cmp: 0nse: 1939end: 3139nPad: 2048
+i: 20cmp: 1nse: 1939end: 3139nPad: 2048
+i: 20cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  21
+Time Delay: 0s
+i: 21cmp: 0nse: 1939end: 3139nPad: 2048
+i: 21cmp: 1nse: 1939end: 3139nPad: 2048
+i: 21cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  22
+Time Delay: 0s
+i: 22cmp: 0nse: 1939end: 3139nPad: 2048
+i: 22cmp: 1nse: 1939end: 3139nPad: 2048
+i: 22cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  23
+Time Delay: 0s
+i: 23cmp: 0nse: 1940end: 3140nPad: 2048
+i: 23cmp: 1nse: 1940end: 3140nPad: 2048
+i: 23cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  24
+Time Delay: 0s
+i: 24cmp: 0nse: 1940end: 3140nPad: 2048
+i: 24cmp: 1nse: 1940end: 3140nPad: 2048
+i: 24cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  25
+Time Delay: 0s
+i: 25cmp: 0nse: 1939end: 3139nPad: 2048
+i: 25cmp: 1nse: 1939end: 3139nPad: 2048
+i: 25cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  26
+Time Delay: 0s
+i: 26cmp: 0nse: 1939end: 3139nPad: 2048
+i: 26cmp: 1nse: 1939end: 3139nPad: 2048
+i: 26cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  27
+Time Delay: 0s
+i: 27cmp: 0nse: 1939end: 3139nPad: 2048
+i: 27cmp: 1nse: 1939end: 3139nPad: 2048
+i: 27cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  28
+Time Delay: 0s
+i: 28cmp: 0nse: 1939end: 3139nPad: 2048
+i: 28cmp: 1nse: 1939end: 3139nPad: 2048
+i: 28cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  29
+Time Delay: 0s
+i: 29cmp: 0nse: 1939end: 3139nPad: 2048
+i: 29cmp: 1nse: 1939end: 3139nPad: 2048
+i: 29cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  30
+Time Delay: 0s
+i: 30cmp: 0nse: 1939end: 3139nPad: 2048
+i: 30cmp: 1nse: 1939end: 3139nPad: 2048
+i: 30cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  31
+Time Delay: 0s
+i: 31cmp: 0nse: 1940end: 3140nPad: 2048
+i: 31cmp: 1nse: 1940end: 3140nPad: 2048
+i: 31cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  32
+Time Delay: 0s
+i: 32cmp: 0nse: 1939end: 3139nPad: 2048
+i: 32cmp: 1nse: 1939end: 3139nPad: 2048
+i: 32cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  33
+Time Delay: 0s
+i: 33cmp: 0nse: 1940end: 3140nPad: 2048
+i: 33cmp: 1nse: 1940end: 3140nPad: 2048
+i: 33cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  34
+Time Delay: 0s
+i: 34cmp: 0nse: 1939end: 3139nPad: 2048
+i: 34cmp: 1nse: 1939end: 3139nPad: 2048
+i: 34cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  35
+Time Delay: 0s
+i: 35cmp: 0nse: 1940end: 3140nPad: 2048
+i: 35cmp: 1nse: 1940end: 3140nPad: 2048
+i: 35cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  36
+Time Delay: 0s
+i: 36cmp: 0nse: 1940end: 3140nPad: 2048
+i: 36cmp: 1nse: 1940end: 3140nPad: 2048
+i: 36cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  37
+Time Delay: 0s
+i: 37cmp: 0nse: 1939end: 3139nPad: 2048
+i: 37cmp: 1nse: 1939end: 3139nPad: 2048
+i: 37cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  38
+Time Delay: 0s
+i: 38cmp: 0nse: 1939end: 3139nPad: 2048
+i: 38cmp: 1nse: 1939end: 3139nPad: 2048
+i: 38cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  39
+Time Delay: 0s
+i: 39cmp: 0nse: 1939end: 3139nPad: 2048
+i: 39cmp: 1nse: 1939end: 3139nPad: 2048
+i: 39cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  40
+Time Delay: 0s
+i: 40cmp: 0nse: 1939end: 3139nPad: 2048
+i: 40cmp: 1nse: 1939end: 3139nPad: 2048
+i: 40cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  41
+Time Delay: 0s
+i: 41cmp: 0nse: 1939end: 3139nPad: 2048
+i: 41cmp: 1nse: 1939end: 3139nPad: 2048
+i: 41cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  42
+Time Delay: 0s
+i: 42cmp: 0nse: 1939end: 3139nPad: 2048
+i: 42cmp: 1nse: 1939end: 3139nPad: 2048
+i: 42cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  43
+Time Delay: 0s
+i: 43cmp: 0nse: 1939end: 3139nPad: 2048
+i: 43cmp: 1nse: 1939end: 3139nPad: 2048
+i: 43cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  44
+Time Delay: 0s
+i: 44cmp: 0nse: 1940end: 3140nPad: 2048
+i: 44cmp: 1nse: 1940end: 3140nPad: 2048
+i: 44cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  45
+Time Delay: 0s
+i: 45cmp: 0nse: 1939end: 3139nPad: 2048
+i: 45cmp: 1nse: 1939end: 3139nPad: 2048
+i: 45cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  46
+Time Delay: 0s
+i: 46cmp: 0nse: 1939end: 3139nPad: 2048
+i: 46cmp: 1nse: 1939end: 3139nPad: 2048
+i: 46cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  47
+Time Delay: 0s
+i: 47cmp: 0nse: 1939end: 3139nPad: 2048
+i: 47cmp: 1nse: 1939end: 3139nPad: 2048
+i: 47cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  48
+Time Delay: 0s
+i: 48cmp: 0nse: 1939end: 3139nPad: 2048
+i: 48cmp: 1nse: 1939end: 3139nPad: 2048
+i: 48cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  49
+Time Delay: 0s
+i: 49cmp: 0nse: 1939end: 3139nPad: 2048
+i: 49cmp: 1nse: 1939end: 3139nPad: 2048
+i: 49cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  50
+Time Delay: 0s
+i: 50cmp: 0nse: 1939end: 3139nPad: 2048
+i: 50cmp: 1nse: 1939end: 3139nPad: 2048
+i: 50cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  51
+Time Delay: 0s
+i: 51cmp: 0nse: 1939end: 3139nPad: 2048
+i: 51cmp: 1nse: 1939end: 3139nPad: 2048
+i: 51cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  52
+Time Delay: 0s
+i: 52cmp: 0nse: 1939end: 3139nPad: 2048
+i: 52cmp: 1nse: 1939end: 3139nPad: 2048
+i: 52cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  53
+Time Delay: 0s
+i: 53cmp: 0nse: 1939end: 3139nPad: 2048
+i: 53cmp: 1nse: 1939end: 3139nPad: 2048
+i: 53cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  54
+Time Delay: 0s
+i: 54cmp: 0nse: 1940end: 3140nPad: 2048
+i: 54cmp: 1nse: 1940end: 3140nPad: 2048
+i: 54cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  55
+Time Delay: 0s
+i: 55cmp: 0nse: 1939end: 3139nPad: 2048
+i: 55cmp: 1nse: 1939end: 3139nPad: 2048
+i: 55cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  56
+Time Delay: 0s
+i: 56cmp: 0nse: 1939end: 3139nPad: 2048
+i: 56cmp: 1nse: 1939end: 3139nPad: 2048
+i: 56cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  57
+Time Delay: 0s
+i: 57cmp: 0nse: 1940end: 3140nPad: 2048
+i: 57cmp: 1nse: 1940end: 3140nPad: 2048
+i: 57cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  58
+Time Delay: 0s
+i: 58cmp: 0nse: 1939end: 3139nPad: 2048
+i: 58cmp: 1nse: 1939end: 3139nPad: 2048
+i: 58cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  59
+Time Delay: 0s
+i: 59cmp: 0nse: 1939end: 3139nPad: 2048
+i: 59cmp: 1nse: 1939end: 3139nPad: 2048
+i: 59cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  60
+Time Delay: 0s
+i: 60cmp: 0nse: 1939end: 3139nPad: 2048
+i: 60cmp: 1nse: 1939end: 3139nPad: 2048
+i: 60cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  61
+Time Delay: 0s
+i: 61cmp: 0nse: 1939end: 3139nPad: 2048
+i: 61cmp: 1nse: 1939end: 3139nPad: 2048
+i: 61cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  62
+Time Delay: 0s
+i: 62cmp: 0nse: 1939end: 3139nPad: 2048
+i: 62cmp: 1nse: 1939end: 3139nPad: 2048
+i: 62cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  63
+Time Delay: 0s
+i: 63cmp: 0nse: 1939end: 3139nPad: 2048
+i: 63cmp: 1nse: 1939end: 3139nPad: 2048
+i: 63cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  64
+Time Delay: 0s
+i: 64cmp: 0nse: 1939end: 3139nPad: 2048
+i: 64cmp: 1nse: 1939end: 3139nPad: 2048
+i: 64cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  65
+Time Delay: 0s
+i: 65cmp: 0nse: 1939end: 3139nPad: 2048
+i: 65cmp: 1nse: 1939end: 3139nPad: 2048
+i: 65cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  66
+Time Delay: 0s
+i: 66cmp: 0nse: 1939end: 3139nPad: 2048
+i: 66cmp: 1nse: 1939end: 3139nPad: 2048
+i: 66cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  67
+Time Delay: 0s
+i: 67cmp: 0nse: 1939end: 3139nPad: 2048
+i: 67cmp: 1nse: 1939end: 3139nPad: 2048
+i: 67cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  68
+Time Delay: 0s
+i: 68cmp: 0nse: 1939end: 3139nPad: 2048
+i: 68cmp: 1nse: 1939end: 3139nPad: 2048
+i: 68cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  69
+Time Delay: 0s
+i: 69cmp: 0nse: 1939end: 3139nPad: 2048
+i: 69cmp: 1nse: 1939end: 3139nPad: 2048
+i: 69cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  70
+Time Delay: 0s
+i: 70cmp: 0nse: 1940end: 3140nPad: 2048
+i: 70cmp: 1nse: 1940end: 3140nPad: 2048
+i: 70cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  71
+Time Delay: 0s
+i: 71cmp: 0nse: 1940end: 3140nPad: 2048
+i: 71cmp: 1nse: 1940end: 3140nPad: 2048
+i: 71cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  72
+Time Delay: 0s
+i: 72cmp: 0nse: 1939end: 3139nPad: 2048
+i: 72cmp: 1nse: 1939end: 3139nPad: 2048
+i: 72cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  73
+Time Delay: 0s
+i: 73cmp: 0nse: 1939end: 3139nPad: 2048
+i: 73cmp: 1nse: 1939end: 3139nPad: 2048
+i: 73cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  74
+Time Delay: 0s
+i: 74cmp: 0nse: 1939end: 3139nPad: 2048
+i: 74cmp: 1nse: 1939end: 3139nPad: 2048
+i: 74cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  75
+Time Delay: 0s
+i: 75cmp: 0nse: 1939end: 3139nPad: 2048
+i: 75cmp: 1nse: 1939end: 3139nPad: 2048
+i: 75cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  76
+Time Delay: 0s
+i: 76cmp: 0nse: 1939end: 3139nPad: 2048
+i: 76cmp: 1nse: 1939end: 3139nPad: 2048
+i: 76cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  77
+Time Delay: 0s
+i: 77cmp: 0nse: 1939end: 3139nPad: 2048
+i: 77cmp: 1nse: 1939end: 3139nPad: 2048
+i: 77cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  78
+Time Delay: 0s
+i: 78cmp: 0nse: 1940end: 3140nPad: 2048
+i: 78cmp: 1nse: 1940end: 3140nPad: 2048
+i: 78cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  79
+Time Delay: 0s
+i: 79cmp: 0nse: 1939end: 3139nPad: 2048
+i: 79cmp: 1nse: 1939end: 3139nPad: 2048
+i: 79cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  80
+Time Delay: 0s
+i: 80cmp: 0nse: 1939end: 3139nPad: 2048
+i: 80cmp: 1nse: 1939end: 3139nPad: 2048
+i: 80cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  81
+Time Delay: 0s
+i: 81cmp: 0nse: 1940end: 3140nPad: 2048
+i: 81cmp: 1nse: 1940end: 3140nPad: 2048
+i: 81cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  82
+Time Delay: 0s
+i: 82cmp: 0nse: 1939end: 3139nPad: 2048
+i: 82cmp: 1nse: 1939end: 3139nPad: 2048
+i: 82cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  83
+Time Delay: 0s
+i: 83cmp: 0nse: 1939end: 3139nPad: 2048
+i: 83cmp: 1nse: 1939end: 3139nPad: 2048
+i: 83cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  84
+Time Delay: 0s
+i: 84cmp: 0nse: 1939end: 3139nPad: 2048
+i: 84cmp: 1nse: 1939end: 3139nPad: 2048
+i: 84cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  85
+Time Delay: 0s
+i: 85cmp: 0nse: 1939end: 3139nPad: 2048
+i: 85cmp: 1nse: 1939end: 3139nPad: 2048
+i: 85cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  86
+Time Delay: 0s
+i: 86cmp: 0nse: 1939end: 3139nPad: 2048
+i: 86cmp: 1nse: 1939end: 3139nPad: 2048
+i: 86cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  87
+Time Delay: 0s
+i: 87cmp: 0nse: 1940end: 3140nPad: 2048
+i: 87cmp: 1nse: 1940end: 3140nPad: 2048
+i: 87cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  88
+Time Delay: 0s
+i: 88cmp: 0nse: 1939end: 3139nPad: 2048
+i: 88cmp: 1nse: 1939end: 3139nPad: 2048
+i: 88cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  89
+Time Delay: 0s
+i: 89cmp: 0nse: 1939end: 3139nPad: 2048
+i: 89cmp: 1nse: 1939end: 3139nPad: 2048
+i: 89cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  90
+Time Delay: 0s
+i: 90cmp: 0nse: 1939end: 3139nPad: 2048
+i: 90cmp: 1nse: 1939end: 3139nPad: 2048
+i: 90cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  91
+Time Delay: 0s
+i: 91cmp: 0nse: 1939end: 3139nPad: 2048
+i: 91cmp: 1nse: 1939end: 3139nPad: 2048
+i: 91cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  92
+Time Delay: 0s
+i: 92cmp: 0nse: 1940end: 3140nPad: 2048
+i: 92cmp: 1nse: 1940end: 3140nPad: 2048
+i: 92cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  93
+Time Delay: 0s
+i: 93cmp: 0nse: 1939end: 3139nPad: 2048
+i: 93cmp: 1nse: 1939end: 3139nPad: 2048
+i: 93cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  94
+Time Delay: 0s
+i: 94cmp: 0nse: 1940end: 3140nPad: 2048
+i: 94cmp: 1nse: 1940end: 3140nPad: 2048
+i: 94cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  95
+Time Delay: 0s
+i: 95cmp: 0nse: 1939end: 3139nPad: 2048
+i: 95cmp: 1nse: 1939end: 3139nPad: 2048
+i: 95cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  96
+Time Delay: 0s
+i: 96cmp: 0nse: 1939end: 3139nPad: 2048
+i: 96cmp: 1nse: 1939end: 3139nPad: 2048
+i: 96cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  97
+Time Delay: 0s
+i: 97cmp: 0nse: 1939end: 3139nPad: 2048
+i: 97cmp: 1nse: 1939end: 3139nPad: 2048
+i: 97cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  98
+Time Delay: 0s
+i: 98cmp: 0nse: 1940end: 3140nPad: 2048
+i: 98cmp: 1nse: 1940end: 3140nPad: 2048
+i: 98cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  99
+Time Delay: 0s
+i: 99cmp: 0nse: 1940end: 3140nPad: 2048
+i: 99cmp: 1nse: 1940end: 3140nPad: 2048
+i: 99cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  100
+Time Delay: 0s
+i: 100cmp: 0nse: 1939end: 3139nPad: 2048
+i: 100cmp: 1nse: 1939end: 3139nPad: 2048
+i: 100cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  101
+Time Delay: 0s
+i: 101cmp: 0nse: 1939end: 3139nPad: 2048
+i: 101cmp: 1nse: 1939end: 3139nPad: 2048
+i: 101cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  102
+Time Delay: 0s
+i: 102cmp: 0nse: 1939end: 3139nPad: 2048
+i: 102cmp: 1nse: 1939end: 3139nPad: 2048
+i: 102cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  103
+Time Delay: 0s
+i: 103cmp: 0nse: 1939end: 3139nPad: 2048
+i: 103cmp: 1nse: 1939end: 3139nPad: 2048
+i: 103cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  104
+Time Delay: 0s
+i: 104cmp: 0nse: 1939end: 3139nPad: 2048
+i: 104cmp: 1nse: 1939end: 3139nPad: 2048
+i: 104cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  105
+Time Delay: 0s
+i: 105cmp: 0nse: 1939end: 3139nPad: 2048
+i: 105cmp: 1nse: 1939end: 3139nPad: 2048
+i: 105cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  106
+Time Delay: 0s
+i: 106cmp: 0nse: 1939end: 3139nPad: 2048
+i: 106cmp: 1nse: 1939end: 3139nPad: 2048
+i: 106cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  107
+Time Delay: 0s
+i: 107cmp: 0nse: 1939end: 3139nPad: 2048
+i: 107cmp: 1nse: 1939end: 3139nPad: 2048
+i: 107cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  108
+Time Delay: 0s
+i: 108cmp: 0nse: 1939end: 3139nPad: 2048
+i: 108cmp: 1nse: 1939end: 3139nPad: 2048
+i: 108cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  109
+Time Delay: 0s
+i: 109cmp: 0nse: 1939end: 3139nPad: 2048
+i: 109cmp: 1nse: 1939end: 3139nPad: 2048
+i: 109cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  110
+Time Delay: 0s
+i: 110cmp: 0nse: 1940end: 3140nPad: 2048
+i: 110cmp: 1nse: 1940end: 3140nPad: 2048
+i: 110cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  111
+Time Delay: 0s
+i: 111cmp: 0nse: 1939end: 3139nPad: 2048
+i: 111cmp: 1nse: 1939end: 3139nPad: 2048
+i: 111cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  112
+Time Delay: 0s
+i: 112cmp: 0nse: 1939end: 3139nPad: 2048
+i: 112cmp: 1nse: 1939end: 3139nPad: 2048
+i: 112cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  113
+Time Delay: 0s
+i: 113cmp: 0nse: 1939end: 3139nPad: 2048
+i: 113cmp: 1nse: 1939end: 3139nPad: 2048
+i: 113cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  114
+Time Delay: 0s
+i: 114cmp: 0nse: 1939end: 3139nPad: 2048
+i: 114cmp: 1nse: 1939end: 3139nPad: 2048
+i: 114cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  115
+Time Delay: 0s
+i: 115cmp: 0nse: 1939end: 3139nPad: 2048
+i: 115cmp: 1nse: 1939end: 3139nPad: 2048
+i: 115cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  116
+Time Delay: 0s
+i: 116cmp: 0nse: 1939end: 3139nPad: 2048
+i: 116cmp: 1nse: 1939end: 3139nPad: 2048
+i: 116cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  117
+Time Delay: 0s
+i: 117cmp: 0nse: 1940end: 3140nPad: 2048
+i: 117cmp: 1nse: 1940end: 3140nPad: 2048
+i: 117cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  118
+Time Delay: 0s
+i: 118cmp: 0nse: 1939end: 3139nPad: 2048
+i: 118cmp: 1nse: 1939end: 3139nPad: 2048
+i: 118cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  119
+Time Delay: 0s
+i: 119cmp: 0nse: 1939end: 3139nPad: 2048
+i: 119cmp: 1nse: 1939end: 3139nPad: 2048
+i: 119cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  120
+Time Delay: 0s
+i: 120cmp: 0nse: 1939end: 3139nPad: 2048
+i: 120cmp: 1nse: 1939end: 3139nPad: 2048
+i: 120cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  121
+Time Delay: 0s
+i: 121cmp: 0nse: 1939end: 3139nPad: 2048
+i: 121cmp: 1nse: 1939end: 3139nPad: 2048
+i: 121cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  122
+Time Delay: 0s
+i: 122cmp: 0nse: 1939end: 3139nPad: 2048
+i: 122cmp: 1nse: 1939end: 3139nPad: 2048
+i: 122cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  123
+Time Delay: 0s
+i: 123cmp: 0nse: 1939end: 3139nPad: 2048
+i: 123cmp: 1nse: 1939end: 3139nPad: 2048
+i: 123cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  124
+Time Delay: 0s
+i: 124cmp: 0nse: 1939end: 3139nPad: 2048
+i: 124cmp: 1nse: 1939end: 3139nPad: 2048
+i: 124cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  125
+Time Delay: 0s
+i: 125cmp: 0nse: 1939end: 3139nPad: 2048
+i: 125cmp: 1nse: 1939end: 3139nPad: 2048
+i: 125cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  126
+Time Delay: 0s
+i: 126cmp: 0nse: 1939end: 3139nPad: 2048
+i: 126cmp: 1nse: 1939end: 3139nPad: 2048
+i: 126cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  127
+Time Delay: 0s
+i: 127cmp: 0nse: 1939end: 3139nPad: 2048
+i: 127cmp: 1nse: 1939end: 3139nPad: 2048
+i: 127cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  128
+Time Delay: 0s
+i: 128cmp: 0nse: 1939end: 3139nPad: 2048
+i: 128cmp: 1nse: 1939end: 3139nPad: 2048
+i: 128cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  129
+Time Delay: 0s
+i: 129cmp: 0nse: 1939end: 3139nPad: 2048
+i: 129cmp: 1nse: 1939end: 3139nPad: 2048
+i: 129cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  130
+Time Delay: 0s
+i: 130cmp: 0nse: 1939end: 3139nPad: 2048
+i: 130cmp: 1nse: 1939end: 3139nPad: 2048
+i: 130cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  131
+Time Delay: 0s
+i: 131cmp: 0nse: 1939end: 3139nPad: 2048
+i: 131cmp: 1nse: 1939end: 3139nPad: 2048
+i: 131cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  132
+Time Delay: 0s
+i: 132cmp: 0nse: 1939end: 3139nPad: 2048
+i: 132cmp: 1nse: 1939end: 3139nPad: 2048
+i: 132cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  133
+Time Delay: 0s
+i: 133cmp: 0nse: 1939end: 3139nPad: 2048
+i: 133cmp: 1nse: 1939end: 3139nPad: 2048
+i: 133cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  134
+Time Delay: 0s
+i: 134cmp: 0nse: 1939end: 3139nPad: 2048
+i: 134cmp: 1nse: 1939end: 3139nPad: 2048
+i: 134cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  135
+Time Delay: 0s
+i: 135cmp: 0nse: 1939end: 3139nPad: 2048
+i: 135cmp: 1nse: 1939end: 3139nPad: 2048
+i: 135cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  136
+Time Delay: 0s
+i: 136cmp: 0nse: 1939end: 3139nPad: 2048
+i: 136cmp: 1nse: 1939end: 3139nPad: 2048
+i: 136cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  137
+Time Delay: 0s
+i: 137cmp: 0nse: 1939end: 3139nPad: 2048
+i: 137cmp: 1nse: 1939end: 3139nPad: 2048
+i: 137cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  138
+Time Delay: 0s
+i: 138cmp: 0nse: 1939end: 3139nPad: 2048
+i: 138cmp: 1nse: 1939end: 3139nPad: 2048
+i: 138cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  139
+Time Delay: 0s
+i: 139cmp: 0nse: 1939end: 3139nPad: 2048
+i: 139cmp: 1nse: 1939end: 3139nPad: 2048
+i: 139cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  140
+Time Delay: 0s
+i: 140cmp: 0nse: 1939end: 3139nPad: 2048
+i: 140cmp: 1nse: 1939end: 3139nPad: 2048
+i: 140cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  141
+Time Delay: 0s
+i: 141cmp: 0nse: 1939end: 3139nPad: 2048
+i: 141cmp: 1nse: 1939end: 3139nPad: 2048
+i: 141cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  142
+Time Delay: 0s
+i: 142cmp: 0nse: 1939end: 3139nPad: 2048
+i: 142cmp: 1nse: 1939end: 3139nPad: 2048
+i: 142cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  143
+Time Delay: 0s
+i: 143cmp: 0nse: 1939end: 3139nPad: 2048
+i: 143cmp: 1nse: 1939end: 3139nPad: 2048
+i: 143cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  144
+Time Delay: 0s
+i: 144cmp: 0nse: 1939end: 3139nPad: 2048
+i: 144cmp: 1nse: 1939end: 3139nPad: 2048
+i: 144cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  145
+Time Delay: 0s
+i: 145cmp: 0nse: 1939end: 3139nPad: 2048
+i: 145cmp: 1nse: 1939end: 3139nPad: 2048
+i: 145cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  146
+Time Delay: 0s
+i: 146cmp: 0nse: 1939end: 3139nPad: 2048
+i: 146cmp: 1nse: 1939end: 3139nPad: 2048
+i: 146cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  147
+Time Delay: 0s
+i: 147cmp: 0nse: 1939end: 3139nPad: 2048
+i: 147cmp: 1nse: 1939end: 3139nPad: 2048
+i: 147cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  148
+Time Delay: 0s
+i: 148cmp: 0nse: 1939end: 3139nPad: 2048
+i: 148cmp: 1nse: 1939end: 3139nPad: 2048
+i: 148cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  149
+Time Delay: 0s
+i: 149cmp: 0nse: 1939end: 3139nPad: 2048
+i: 149cmp: 1nse: 1939end: 3139nPad: 2048
+i: 149cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  150
+Time Delay: 0s
+i: 150cmp: 0nse: 1940end: 3140nPad: 2048
+i: 150cmp: 1nse: 1940end: 3140nPad: 2048
+i: 150cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  151
+Time Delay: 0s
+i: 151cmp: 0nse: 1939end: 3139nPad: 2048
+i: 151cmp: 1nse: 1939end: 3139nPad: 2048
+i: 151cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  152
+Time Delay: 0s
+i: 152cmp: 0nse: 1939end: 3139nPad: 2048
+i: 152cmp: 1nse: 1939end: 3139nPad: 2048
+i: 152cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  153
+Time Delay: 0s
+i: 153cmp: 0nse: 1939end: 3139nPad: 2048
+i: 153cmp: 1nse: 1939end: 3139nPad: 2048
+i: 153cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  154
+Time Delay: 0s
+i: 154cmp: 0nse: 1939end: 3139nPad: 2048
+i: 154cmp: 1nse: 1939end: 3139nPad: 2048
+i: 154cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  155
+Time Delay: 0s
+i: 155cmp: 0nse: 1939end: 3139nPad: 2048
+i: 155cmp: 1nse: 1939end: 3139nPad: 2048
+i: 155cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  156
+Time Delay: 0s
+i: 156cmp: 0nse: 1939end: 3139nPad: 2048
+i: 156cmp: 1nse: 1939end: 3139nPad: 2048
+i: 156cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  157
+Time Delay: 0s
+i: 157cmp: 0nse: 1939end: 3139nPad: 2048
+i: 157cmp: 1nse: 1939end: 3139nPad: 2048
+i: 157cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  158
+Time Delay: 0s
+i: 158cmp: 0nse: 1939end: 3139nPad: 2048
+i: 158cmp: 1nse: 1939end: 3139nPad: 2048
+i: 158cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  159
+Time Delay: 0s
+i: 159cmp: 0nse: 1939end: 3139nPad: 2048
+i: 159cmp: 1nse: 1939end: 3139nPad: 2048
+i: 159cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  160
+Time Delay: 0s
+i: 160cmp: 0nse: 1939end: 3139nPad: 2048
+i: 160cmp: 1nse: 1939end: 3139nPad: 2048
+i: 160cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  161
+Time Delay: 0s
+i: 161cmp: 0nse: 1939end: 3139nPad: 2048
+i: 161cmp: 1nse: 1939end: 3139nPad: 2048
+i: 161cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  162
+Time Delay: 0s
+i: 162cmp: 0nse: 1939end: 3139nPad: 2048
+i: 162cmp: 1nse: 1939end: 3139nPad: 2048
+i: 162cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  163
+Time Delay: 0s
+i: 163cmp: 0nse: 1939end: 3139nPad: 2048
+i: 163cmp: 1nse: 1939end: 3139nPad: 2048
+i: 163cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  164
+Time Delay: 0s
+i: 164cmp: 0nse: 1940end: 3140nPad: 2048
+i: 164cmp: 1nse: 1940end: 3140nPad: 2048
+i: 164cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  165
+Time Delay: 0s
+i: 165cmp: 0nse: 1939end: 3139nPad: 2048
+i: 165cmp: 1nse: 1939end: 3139nPad: 2048
+i: 165cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  166
+Time Delay: 0s
+i: 166cmp: 0nse: 1939end: 3139nPad: 2048
+i: 166cmp: 1nse: 1939end: 3139nPad: 2048
+i: 166cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  167
+Time Delay: 0s
+i: 167cmp: 0nse: 1939end: 3139nPad: 2048
+i: 167cmp: 1nse: 1939end: 3139nPad: 2048
+i: 167cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  168
+Time Delay: 0s
+i: 168cmp: 0nse: 1939end: 3139nPad: 2048
+i: 168cmp: 1nse: 1939end: 3139nPad: 2048
+i: 168cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  169
+Time Delay: 0s
+i: 169cmp: 0nse: 1939end: 3139nPad: 2048
+i: 169cmp: 1nse: 1939end: 3139nPad: 2048
+i: 169cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  170
+Time Delay: 0s
+i: 170cmp: 0nse: 1939end: 3139nPad: 2048
+i: 170cmp: 1nse: 1939end: 3139nPad: 2048
+i: 170cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  171
+Time Delay: 0s
+i: 171cmp: 0nse: 1939end: 3139nPad: 2048
+i: 171cmp: 1nse: 1939end: 3139nPad: 2048
+i: 171cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  172
+Time Delay: 0s
+i: 172cmp: 0nse: 1939end: 3139nPad: 2048
+i: 172cmp: 1nse: 1939end: 3139nPad: 2048
+i: 172cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  173
+Time Delay: 0s
+i: 173cmp: 0nse: 1939end: 3139nPad: 2048
+i: 173cmp: 1nse: 1939end: 3139nPad: 2048
+i: 173cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  174
+Time Delay: 0s
+i: 174cmp: 0nse: 1939end: 3139nPad: 2048
+i: 174cmp: 1nse: 1939end: 3139nPad: 2048
+i: 174cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  175
+Time Delay: 0s
+i: 175cmp: 0nse: 1939end: 3139nPad: 2048
+i: 175cmp: 1nse: 1939end: 3139nPad: 2048
+i: 175cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  176
+Time Delay: 0s
+i: 176cmp: 0nse: 1939end: 3139nPad: 2048
+i: 176cmp: 1nse: 1939end: 3139nPad: 2048
+i: 176cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  177
+Time Delay: 0s
+i: 177cmp: 0nse: 1939end: 3139nPad: 2048
+i: 177cmp: 1nse: 1939end: 3139nPad: 2048
+i: 177cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  178
+Time Delay: 0s
+i: 178cmp: 0nse: 1939end: 3139nPad: 2048
+i: 178cmp: 1nse: 1939end: 3139nPad: 2048
+i: 178cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  179
+Time Delay: 0s
+i: 179cmp: 0nse: 1939end: 3139nPad: 2048
+i: 179cmp: 1nse: 1939end: 3139nPad: 2048
+i: 179cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  180
+Time Delay: 0s
+i: 180cmp: 0nse: 1939end: 3139nPad: 2048
+i: 180cmp: 1nse: 1939end: 3139nPad: 2048
+i: 180cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  181
+Time Delay: 0s
+i: 181cmp: 0nse: 1939end: 3139nPad: 2048
+i: 181cmp: 1nse: 1939end: 3139nPad: 2048
+i: 181cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  182
+Time Delay: 0s
+i: 182cmp: 0nse: 1939end: 3139nPad: 2048
+i: 182cmp: 1nse: 1939end: 3139nPad: 2048
+i: 182cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  183
+Time Delay: 0s
+i: 183cmp: 0nse: 1939end: 3139nPad: 2048
+i: 183cmp: 1nse: 1939end: 3139nPad: 2048
+i: 183cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  184
+Time Delay: 0s
+i: 184cmp: 0nse: 1939end: 3139nPad: 2048
+i: 184cmp: 1nse: 1939end: 3139nPad: 2048
+i: 184cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  185
+Time Delay: 0s
+i: 185cmp: 0nse: 1939end: 3139nPad: 2048
+i: 185cmp: 1nse: 1939end: 3139nPad: 2048
+i: 185cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  186
+Time Delay: 0s
+i: 186cmp: 0nse: 1939end: 3139nPad: 2048
+i: 186cmp: 1nse: 1939end: 3139nPad: 2048
+i: 186cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  187
+Time Delay: 0s
+i: 187cmp: 0nse: 1939end: 3139nPad: 2048
+i: 187cmp: 1nse: 1939end: 3139nPad: 2048
+i: 187cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  188
+Time Delay: 0s
+i: 188cmp: 0nse: 1939end: 3139nPad: 2048
+i: 188cmp: 1nse: 1939end: 3139nPad: 2048
+i: 188cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  189
+Time Delay: 0s
+i: 189cmp: 0nse: 1939end: 3139nPad: 2048
+i: 189cmp: 1nse: 1939end: 3139nPad: 2048
+i: 189cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  190
+Time Delay: 0s
+i: 190cmp: 0nse: 1940end: 3140nPad: 2048
+i: 190cmp: 1nse: 1940end: 3140nPad: 2048
+i: 190cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  191
+Time Delay: 0s
+i: 191cmp: 0nse: 1939end: 3139nPad: 2048
+i: 191cmp: 1nse: 1939end: 3139nPad: 2048
+i: 191cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  192
+Time Delay: 0s
+i: 192cmp: 0nse: 1939end: 3139nPad: 2048
+i: 192cmp: 1nse: 1939end: 3139nPad: 2048
+i: 192cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  193
+Time Delay: 0s
+i: 193cmp: 0nse: 1939end: 3139nPad: 2048
+i: 193cmp: 1nse: 1939end: 3139nPad: 2048
+i: 193cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  194
+Time Delay: 0s
+i: 194cmp: 0nse: 1939end: 3139nPad: 2048
+i: 194cmp: 1nse: 1939end: 3139nPad: 2048
+i: 194cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  195
+Time Delay: 0s
+i: 195cmp: 0nse: 1939end: 3139nPad: 2048
+i: 195cmp: 1nse: 1939end: 3139nPad: 2048
+i: 195cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  196
+Time Delay: 0s
+i: 196cmp: 0nse: 1939end: 3139nPad: 2048
+i: 196cmp: 1nse: 1939end: 3139nPad: 2048
+i: 196cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  197
+Time Delay: 0s
+i: 197cmp: 0nse: 1940end: 3140nPad: 2048
+i: 197cmp: 1nse: 1940end: 3140nPad: 2048
+i: 197cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  198
+Time Delay: 0s
+i: 198cmp: 0nse: 1939end: 3139nPad: 2048
+i: 198cmp: 1nse: 1939end: 3139nPad: 2048
+i: 198cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  199
+Time Delay: 0s
+i: 199cmp: 0nse: 1939end: 3139nPad: 2048
+i: 199cmp: 1nse: 1939end: 3139nPad: 2048
+i: 199cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  200
+Time Delay: 0s
+i: 200cmp: 0nse: 1939end: 3139nPad: 2048
+i: 200cmp: 1nse: 1939end: 3139nPad: 2048
+i: 200cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  201
+Time Delay: 0s
+i: 201cmp: 0nse: 1939end: 3139nPad: 2048
+i: 201cmp: 1nse: 1939end: 3139nPad: 2048
+i: 201cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  202
+Time Delay: 0s
+i: 202cmp: 0nse: 1939end: 3139nPad: 2048
+i: 202cmp: 1nse: 1939end: 3139nPad: 2048
+i: 202cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  203
+Time Delay: 0s
+i: 203cmp: 0nse: 1940end: 3140nPad: 2048
+i: 203cmp: 1nse: 1940end: 3140nPad: 2048
+i: 203cmp: 2nse: 1940end: 3140nPad: 2048
+Calculting RF for record:  204
+Time Delay: 0s
+i: 204cmp: 0nse: 1939end: 3139nPad: 2048
+i: 204cmp: 1nse: 1939end: 3139nPad: 2048
+i: 204cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  205
+Time Delay: 0s
+i: 205cmp: 0nse: 1939end: 3139nPad: 2048
+i: 205cmp: 1nse: 1939end: 3139nPad: 2048
+i: 205cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  206
+Time Delay: 0s
+i: 206cmp: 0nse: 1939end: 3139nPad: 2048
+i: 206cmp: 1nse: 1939end: 3139nPad: 2048
+i: 206cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  207
+Time Delay: 0s
+i: 207cmp: 0nse: 1939end: 3139nPad: 2048
+i: 207cmp: 1nse: 1939end: 3139nPad: 2048
+i: 207cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  208
+Time Delay: 0s
+i: 208cmp: 0nse: 1939end: 3139nPad: 2048
+i: 208cmp: 1nse: 1939end: 3139nPad: 2048
+i: 208cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  209
+Time Delay: 0s
+i: 209cmp: 0nse: 1939end: 3139nPad: 2048
+i: 209cmp: 1nse: 1939end: 3139nPad: 2048
+i: 209cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  210
+Time Delay: 0s
+i: 210cmp: 0nse: 1939end: 3139nPad: 2048
+i: 210cmp: 1nse: 1939end: 3139nPad: 2048
+i: 210cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  211
+Time Delay: 0s
+i: 211cmp: 0nse: 1939end: 3139nPad: 2048
+i: 211cmp: 1nse: 1939end: 3139nPad: 2048
+i: 211cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  212
+Time Delay: 0s
+i: 212cmp: 0nse: 1939end: 3139nPad: 2048
+i: 212cmp: 1nse: 1939end: 3139nPad: 2048
+i: 212cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  213
+Time Delay: 0s
+i: 213cmp: 0nse: 1939end: 3139nPad: 2048
+i: 213cmp: 1nse: 1939end: 3139nPad: 2048
+i: 213cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  214
+Time Delay: 0s
+i: 214cmp: 0nse: 1939end: 3139nPad: 2048
+i: 214cmp: 1nse: 1939end: 3139nPad: 2048
+i: 214cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  215
+Time Delay: 0s
+i: 215cmp: 0nse: 1939end: 3139nPad: 2048
+i: 215cmp: 1nse: 1939end: 3139nPad: 2048
+i: 215cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  216
+Time Delay: 0s
+i: 216cmp: 0nse: 1939end: 3139nPad: 2048
+i: 216cmp: 1nse: 1939end: 3139nPad: 2048
+i: 216cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  217
+Time Delay: 0s
+i: 217cmp: 0nse: 1939end: 3139nPad: 2048
+i: 217cmp: 1nse: 1939end: 3139nPad: 2048
+i: 217cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  218
+Time Delay: 0s
+i: 218cmp: 0nse: 1939end: 3139nPad: 2048
+i: 218cmp: 1nse: 1939end: 3139nPad: 2048
+i: 218cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  219
+Time Delay: 0s
+i: 219cmp: 0nse: 1939end: 3139nPad: 2048
+i: 219cmp: 1nse: 1939end: 3139nPad: 2048
+i: 219cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  220
+Time Delay: 0s
+i: 220cmp: 0nse: 1939end: 3139nPad: 2048
+i: 220cmp: 1nse: 1939end: 3139nPad: 2048
+i: 220cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  221
+Time Delay: 0s
+i: 221cmp: 0nse: 1939end: 3139nPad: 2048
+i: 221cmp: 1nse: 1939end: 3139nPad: 2048
+i: 221cmp: 2nse: 1939end: 3139nPad: 2048
+Calculting RF for record:  222
+No of Layers + Halfspace is = 3
+Done Building RFs 
+Demo
+rec 55
+rec 177
+rec 25
+rec 177
+rec 25
+rec 55
+Jack all complete 3
+aggregating
+binCnt 3
+Demo
+rec 55
+rec 177
+rec 25
+rec 177
+rec 25
+rec 55
+Jack all complete 3
+aggregating
+binCnt 3
+binCnt 0
+binCnt 0
+binCnt 0
+binCnt 0
+binCnt 1
+binCnt 1
+binCnt 0
+binCnt 0
+Demo
+rec 200
+rec 174
+Jack all complete 2
+aggregating
+binCnt 2
+Demo
+rec 138
+rec 154
+rec 174
+rec 200
+rec 8
+rec 154
+rec 174
+rec 200
+rec 8
+rec 138
+rec 174
+rec 200
+rec 8
+rec 138
+rec 154
+rec 200
+rec 8
+rec 138
+rec 154
+rec 174
+Jack all complete 5
+aggregating
+binCnt 5
+Demo
+rec 40
+rec 138
+rec 154
+rec 8
+rec 138
+rec 154
+rec 8
+rec 40
+rec 154
+rec 8
+rec 40
+rec 138
+Jack all complete 4
+aggregating
+binCnt 4
+Demo
+rec 39
+rec 40
+rec 60
+rec 139
+rec 151
+rec 218
+rec 26
+rec 40
+rec 60
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 60
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 40
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 40
+rec 60
+rec 151
+rec 218
+rec 26
+rec 39
+rec 40
+rec 60
+rec 139
+rec 218
+rec 26
+rec 39
+rec 40
+rec 60
+rec 139
+rec 151
+Jack all complete 7
+aggregating
+binCnt 7
+Demo
+rec 39
+rec 60
+rec 113
+rec 134
+rec 135
+rec 139
+rec 151
+rec 218
+rec 26
+rec 60
+rec 113
+rec 134
+rec 135
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 113
+rec 134
+rec 135
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 60
+rec 134
+rec 135
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 60
+rec 113
+rec 135
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 60
+rec 113
+rec 134
+rec 139
+rec 151
+rec 218
+rec 26
+rec 39
+rec 60
+rec 113
+rec 134
+rec 135
+rec 151
+rec 218
+rec 26
+rec 39
+rec 60
+rec 113
+rec 134
+rec 135
+rec 139
+rec 218
+rec 26
+rec 39
+rec 60
+rec 113
+rec 134
+rec 135
+rec 139
+rec 151
+Jack all complete 9
+aggregating
+binCnt 9
+Demo
+rec 118
+rec 134
+rec 135
+rec 168
+rec 173
+rec 178
+rec 179
+rec 212
+rec 219
+rec 113
+rec 134
+rec 135
+rec 168
+rec 173
+rec 178
+rec 179
+rec 212
+rec 219
+rec 113
+rec 118
+rec 135
+rec 168
+rec 173
+rec 178
+rec 179
+rec 212
+rec 219
+rec 113
+rec 118
+rec 134
+rec 168
+rec 173
+rec 178
+rec 179
+rec 212
+rec 219
+rec 113
+rec 118
+rec 134
+rec 135
+rec 173
+rec 178
+rec 179
+rec 212
+rec 219
+rec 113
+rec 118
+rec 134
+rec 135
+rec 168
+rec 178
+rec 179
+rec 212
+rec 219
+rec 113
+rec 118
+rec 134
+rec 135
+rec 168
+rec 173
+rec 179
+rec 212
+rec 219
+rec 113
+rec 118
+rec 134
+rec 135
+rec 168
+rec 173
+rec 178
+rec 212
+rec 219
+rec 113
+rec 118
+rec 134
+rec 135
+rec 168
+rec 173
+rec 178
+rec 179
+rec 219
+rec 113
+rec 118
+rec 134
+rec 135
+rec 168
+rec 173
+rec 178
+rec 179
+rec 212
+Jack all complete 10
+aggregating
+binCnt 10
+Demo
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 211
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 212
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 213
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 216
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 219
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 118
+rec 128
+rec 149
+rec 168
+rec 173
+rec 178
+rec 179
+rec 202
+rec 211
+rec 212
+rec 213
+rec 216
+Jack all complete 18
+aggregating
+binCnt 18
+Demo
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 172
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 202
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 211
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 213
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 216
+rec 0
+rec 1
+rec 2
+rec 3
+rec 4
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 95
+rec 96
+rec 97
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 128
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 149
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 202
+rec 211
+rec 213
+Jack all complete 38
+aggregating
+binCnt 38
+Demo
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 163
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 172
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 181
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 191
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 217
+rec 7
+rec 13
+rec 15
+rec 20
+rec 41
+rec 46
+rec 50
+rec 51
+rec 52
+rec 58
+rec 59
+rec 66
+rec 72
+rec 73
+rec 95
+rec 96
+rec 97
+rec 101
+rec 105
+rec 106
+rec 111
+rec 115
+rec 120
+rec 121
+rec 124
+rec 130
+rec 131
+rec 132
+rec 140
+rec 141
+rec 145
+rec 146
+rec 152
+rec 159
+rec 160
+rec 161
+rec 162
+rec 163
+rec 172
+rec 181
+rec 191
+Jack all complete 42
+aggregating
+binCnt 42
+Demo
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 152
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 181
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 191
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 208
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 217
+rec 7
+rec 9
+rec 10
+rec 20
+rec 22
+rec 27
+rec 48
+rec 58
+rec 66
+rec 72
+rec 73
+rec 85
+rec 91
+rec 101
+rec 102
+rec 104
+rec 105
+rec 108
+rec 115
+rec 125
+rec 145
+rec 146
+rec 152
+rec 181
+rec 191
+rec 208
+Jack all complete 27
+aggregating
+binCnt 27
+Demo
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 205
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 207
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 208
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 214
+rec 9
+rec 10
+rec 16
+rec 22
+rec 27
+rec 48
+rec 82
+rec 85
+rec 88
+rec 91
+rec 102
+rec 104
+rec 108
+rec 112
+rec 125
+rec 126
+rec 133
+rec 188
+rec 189
+rec 205
+rec 207
+rec 208
+rec 209
+Jack all complete 24
+aggregating
+binCnt 24
+Demo
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 205
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 207
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 209
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 210
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 214
+rec 16
+rec 19
+rec 21
+rec 32
+rec 67
+rec 68
+rec 69
+rec 82
+rec 88
+rec 112
+rec 126
+rec 133
+rec 137
+rec 148
+rec 167
+rec 187
+rec 188
+rec 189
+rec 205
+rec 207
+rec 209
+rec 210
+Jack all complete 23
+aggregating
+binCnt 23
+Testing Migrating Time to Depth. All Times, Size: 22   800First and Last: -10  29.85
+*********** Less than zero: 0
+*********** Less than zero: 1
+*********** Less than zero: 2
+*********** Less than zero: 3
+*********** Less than zero: 4
+*********** Less than zero: 5
+*********** Less than zero: 6
+*********** Less than zero: 7
+*********** Less than zero: 8
+*********** Less than zero: 9
+*********** Less than zero: 10
+*********** Less than zero: 11
+*********** Less than zero: 12
+*********** Less than zero: 13
+*********** Less than zero: 14
+*********** Less than zero: 15
+*********** Less than zero: 16
+*********** Less than zero: 17
+*********** Less than zero: 18
+*********** Less than zero: 19
+*********** Less than zero: 20
+*********** Less than zero: 21
+*********** Less than zero: 22
+*********** Less than zero: 23
+*********** Less than zero: 24
+*********** Less than zero: 25
+*********** Less than zero: 26
+*********** Less than zero: 27
+*********** Less than zero: 28
+*********** Less than zero: 29
+*********** Less than zero: 30
+*********** Less than zero: 31
+*********** Less than zero: 32
+*********** Less than zero: 33
+*********** Less than zero: 34
+*********** Less than zero: 35
+*********** Less than zero: 36
+*********** Less than zero: 37
+*********** Less than zero: 38
+*********** Less than zero: 39
+*********** Less than zero: 40
+*********** Less than zero: 41
+*********** Less than zero: 42
+*********** Less than zero: 43
+*********** Less than zero: 44
+*********** Less than zero: 45
+*********** Less than zero: 46
+*********** Less than zero: 47
+*********** Less than zero: 48
+*********** Less than zero: 49
+*********** Less than zero: 50
+*********** Less than zero: 51
+*********** Less than zero: 52
+*********** Less than zero: 53
+*********** Less than zero: 54
+*********** Less than zero: 55
+*********** Less than zero: 56
+*********** Less than zero: 57
+*********** Less than zero: 58
+*********** Less than zero: 59
+*********** Less than zero: 60
+*********** Less than zero: 61
+*********** Less than zero: 62
+*********** Less than zero: 63
+*********** Less than zero: 64
+*********** Less than zero: 65
+*********** Less than zero: 66
+*********** Less than zero: 67
+*********** Less than zero: 68
+*********** Less than zero: 69
+*********** Less than zero: 70
+*********** Less than zero: 71
+*********** Less than zero: 72
+*********** Less than zero: 73
+*********** Less than zero: 74
+*********** Less than zero: 75
+*********** Less than zero: 76
+*********** Less than zero: 77
+*********** Less than zero: 78
+*********** Less than zero: 79
+*********** Less than zero: 80
+*********** Less than zero: 81
+*********** Less than zero: 82
+*********** Less than zero: 83
+*********** Less than zero: 84
+*********** Less than zero: 85
+*********** Less than zero: 86
+*********** Less than zero: 87
+*********** Less than zero: 88
+*********** Less than zero: 89
+*********** Less than zero: 90
+*********** Less than zero: 91
+*********** Less than zero: 92
+*********** Less than zero: 93
+*********** Less than zero: 94
+*********** Less than zero: 95
+*********** Less than zero: 96
+*********** Less than zero: 97
+*********** Less than zero: 98
+*********** Less than zero: 99
+*********** Less than zero: 100
+*********** Less than zero: 101
+*********** Less than zero: 102
+*********** Less than zero: 103
+*********** Less than zero: 104
+*********** Less than zero: 105
+*********** Less than zero: 106
+*********** Less than zero: 107
+*********** Less than zero: 108
+*********** Less than zero: 109
+*********** Less than zero: 110
+*********** Less than zero: 111
+*********** Less than zero: 112
+*********** Less than zero: 113
+*********** Less than zero: 114
+*********** Less than zero: 115
+*********** Less than zero: 116
+*********** Less than zero: 117
+*********** Less than zero: 118
+*********** Less than zero: 119
+*********** Less than zero: 120
+*********** Less than zero: 121
+*********** Less than zero: 122
+*********** Less than zero: 123
+*********** Less than zero: 124
+*********** Less than zero: 125
+*********** Less than zero: 126
+*********** Less than zero: 127
+*********** Less than zero: 128
+*********** Less than zero: 129
+*********** Less than zero: 130
+*********** Less than zero: 131
+*********** Less than zero: 132
+*********** Less than zero: 133
+*********** Less than zero: 134
+*********** Less than zero: 135
+*********** Less than zero: 136
+*********** Less than zero: 137
+*********** Less than zero: 138
+*********** Less than zero: 139
+*********** Less than zero: 140
+*********** Less than zero: 141
+*********** Less than zero: 142
+*********** Less than zero: 143
+*********** Less than zero: 144
+*********** Less than zero: 145
+*********** Less than zero: 146
+*********** Less than zero: 147
+*********** Less than zero: 148
+*********** Less than zero: 149
+*********** Less than zero: 150
+*********** Less than zero: 151
+*********** Less than zero: 152
+*********** Less than zero: 153
+*********** Less than zero: 154
+*********** Less than zero: 155
+*********** Less than zero: 156
+*********** Less than zero: 157
+*********** Less than zero: 158
+*********** Less than zero: 159
+*********** Less than zero: 160
+*********** Less than zero: 161
+*********** Less than zero: 162
+*********** Less than zero: 163
+*********** Less than zero: 164
+*********** Less than zero: 165
+*********** Less than zero: 166
+*********** Less than zero: 167
+*********** Less than zero: 168
+*********** Less than zero: 169
+*********** Less than zero: 170
+*********** Less than zero: 171
+*********** Less than zero: 172
+*********** Less than zero: 173
+*********** Less than zero: 174
+*********** Less than zero: 175
+*********** Less than zero: 176
+*********** Less than zero: 177
+*********** Less than zero: 178
+*********** Less than zero: 179
+*********** Less than zero: 180
+*********** Less than zero: 181
+*********** Less than zero: 182
+*********** Less than zero: 183
+*********** Less than zero: 184
+*********** Less than zero: 185
+*********** Less than zero: 186
+*********** Less than zero: 187
+*********** Less than zero: 188
+*********** Less than zero: 189
+*********** Less than zero: 190
+*********** Less than zero: 191
+*********** Less than zero: 192
+*********** Less than zero: 193
+*********** Less than zero: 194
+*********** Less than zero: 195
+*********** Less than zero: 196
+*********** Less than zero: 197
+*********** Less than zero: 198
+*********** Less than zero: 199
+T:  0s  D:  0km  
+T:  0.0500002s  D:  0.000398908km  
+T:  0.1s  D:  0.000797816km  
+T:  0.150001s  D:  0.00119672km  
+T:  0.200001s  D:  0.00159563km  
+T:  0.25s  D:  0.00199453km  
+T:  0.3s  D:  0.00239344km  
+T:  0.35s  D:  0.00279235km  
+T:  0.400001s  D:  0.00319125km  
+T:  0.450001s  D:  0.00359016km  
+T:  0.5s  D:  0.00398906km  
+T:  0.55s  D:  0.00438797km  
+T:  0.6s  D:  0.00478688km  
+T:  0.650001s  D:  0.00518579km  
+T:  0.700001s  D:  0.00558469km  
+T:  0.75s  D:  0.00598359km  
+T:  0.8s  D:  0.0063825km  
+T:  0.85s  D:  0.00678141km  
+T:  0.900001s  D:  0.0072404km  
+T:  0.950001s  D:  0.00777222km  
+T:  1s  D:  0.00830403km  
+T:  1.05s  D:  0.00883585km  
+T:  1.1s  D:  0.00936767km  
+T:  1.15s  D:  0.00989949km  
+T:  1.2s  D:  0.0104313km  
+T:  1.25s  D:  0.0109631km  
+T:  1.3s  D:  0.0114949km  
+T:  1.35s  D:  0.0120268km  
+T:  1.4s  D:  0.0125586km  
+T:  1.45s  D:  0.0130904km  
+T:  1.5s  D:  0.0136222km  
+T:  1.55s  D:  0.014154km  
+T:  1.6s  D:  0.0146858km  
+T:  1.65s  D:  0.0152177km  
+T:  1.7s  D:  0.0157495km  
+T:  1.75s  D:  0.0162813km  
+T:  1.8s  D:  0.0168131km  
+T:  1.85s  D:  0.0173449km  
+T:  1.9s  D:  0.0178768km  
+T:  1.95s  D:  0.0184086km  
+T:  2s  D:  0.0189404km  
+T:  2.05s  D:  0.0194722km  
+T:  2.1s  D:  0.020004km  
+T:  2.15s  D:  0.0205359km  
+T:  2.2s  D:  0.0210677km  
+T:  2.25s  D:  0.0215995km  
+T:  2.3s  D:  0.0221313km  
+T:  2.35s  D:  0.0226631km  
+T:  2.4s  D:  0.0231949km  
+T:  2.45s  D:  0.0237268km  
+T:  2.5s  D:  0.0242586km  
+T:  2.55s  D:  0.0247904km  
+T:  2.6s  D:  0.0253222km  
+T:  2.65s  D:  0.025854km  
+T:  2.7s  D:  0.0263858km  
+T:  2.75s  D:  0.0269177km  
+T:  2.8s  D:  0.0274495km  
+T:  2.85s  D:  0.0279813km  
+T:  2.9s  D:  0.0285131km  
+T:  2.95s  D:  0.0290449km  
+T:  3s  D:  0.0295768km  
+T:  3.05s  D:  0.0301086km  
+T:  3.1s  D:  0.0306404km  
+T:  3.15s  D:  0.0311722km  
+T:  3.2s  D:  0.031704km  
+T:  3.25s  D:  0.0322358km  
+T:  3.3s  D:  0.0327677km  
+T:  3.35s  D:  0.0332995km  
+T:  3.4s  D:  0.0338313km  
+T:  3.45s  D:  0.0343631km  
+T:  3.5s  D:  0.0348949km  
+T:  3.55s  D:  0.0354268km  
+T:  3.6s  D:  0.0359586km  
+T:  3.65s  D:  0.0364904km  
+T:  3.7s  D:  0.0370222km  
+T:  3.75s  D:  0.037554km  
+T:  3.8s  D:  0.0380858km  
+T:  3.85s  D:  0.0386177km  
+T:  3.9s  D:  0.0391495km  
+T:  3.95s  D:  0.0396813km  
+T:  4s  D:  0.0402131km  
+T:  4.05s  D:  0.0407449km  
+T:  4.1s  D:  0.0412768km  
+T:  4.15s  D:  0.0418086km  
+T:  4.2s  D:  0.0423404km  
+T:  4.25s  D:  0.0428722km  
+T:  4.3s  D:  0.043404km  
+T:  4.35s  D:  0.0439358km  
+T:  4.4s  D:  0.0444677km  
+T:  4.45s  D:  0.0449995km  
+T:  4.5s  D:  0.0455313km  
+T:  4.55s  D:  0.0460631km  
+T:  4.6s  D:  0.0465949km  
+T:  4.65s  D:  0.0471268km  
+T:  4.7s  D:  0.0476586km  
+T:  4.75s  D:  0.0481904km  
+T:  4.8s  D:  0.0487222km  
+T:  4.85s  D:  0.049254km  
+T:  4.9s  D:  0.0497858km  
+T:  4.95s  D:  0.0503177km  
+T:  5s  D:  0.0508495km  
+T:  5.05s  D:  0.0513813km  
+T:  5.1s  D:  0.0519131km  
+T:  5.15s  D:  0.0524449km  
+T:  5.2s  D:  0.0529768km  
+T:  5.25s  D:  0.0535086km  
+T:  5.3s  D:  0.0540404km  
+T:  5.35s  D:  0.0545722km  
+T:  5.4s  D:  0.055104km  
+T:  5.45s  D:  0.0556358km  
+T:  5.5s  D:  0.0561677km  
+T:  5.55s  D:  0.0566995km  
+T:  5.6s  D:  0.0572313km  
+T:  5.65s  D:  0.0577631km  
+T:  5.7s  D:  0.0582949km  
+T:  5.75s  D:  0.0588268km  
+T:  5.8s  D:  0.0593586km  
+T:  5.85s  D:  0.0598904km  
+T:  5.9s  D:  0.0604222km  
+T:  5.95s  D:  0.060954km  
+T:  6s  D:  0.0614858km  
+T:  6.05s  D:  0.0620177km  
+T:  6.1s  D:  0.0625495km  
+T:  6.15s  D:  0.0630813km  
+T:  6.2s  D:  0.0636131km  
+T:  6.25s  D:  0.0641449km  
+T:  6.3s  D:  0.0646768km  
+T:  6.35s  D:  0.0652086km  
+T:  6.4s  D:  0.0657404km  
+T:  6.45s  D:  0.0662722km  
+T:  6.5s  D:  0.066804km  
+T:  6.55s  D:  0.0673358km  
+T:  6.6s  D:  0.0678677km  
+T:  6.65s  D:  0.0683995km  
+T:  6.7s  D:  0.0689313km  
+T:  6.75s  D:  0.0694631km  
+T:  6.8s  D:  0.0699949km  
+T:  6.85s  D:  0.0705267km  
+T:  6.9s  D:  0.0710586km  
+T:  6.95s  D:  0.0715904km  
+T:  7s  D:  0.0721222km  
+T:  7.05s  D:  0.072654km  
+T:  7.1s  D:  0.0731858km  
+T:  7.15s  D:  0.0737177km  
+T:  7.2s  D:  0.0742495km  
+T:  7.25s  D:  0.0747813km  
+T:  7.3s  D:  0.0753131km  
+T:  7.35s  D:  0.0758449km  
+T:  7.4s  D:  0.0763768km  
+T:  7.45s  D:  0.0769086km  
+T:  7.5s  D:  0.0774404km  
+T:  7.55s  D:  0.0779722km  
+T:  7.6s  D:  0.078504km  
+T:  7.65s  D:  0.0790359km  
+T:  7.7s  D:  0.0795677km  
+T:  7.75s  D:  0.0800995km  
+T:  7.8s  D:  0.0806313km  
+T:  7.85s  D:  0.0811631km  
+T:  7.9s  D:  0.0816949km  
+T:  7.95s  D:  0.0822268km  
+T:  8s  D:  0.0827586km  
+T:  8.05s  D:  0.0832904km  
+T:  8.1s  D:  0.0838222km  
+T:  8.15s  D:  0.084354km  
+T:  8.2s  D:  0.0848858km  
+T:  8.25s  D:  0.0854177km  
+T:  8.3s  D:  0.0859495km  
+T:  8.35s  D:  0.0864813km  
+T:  8.4s  D:  0.0870131km  
+T:  8.45s  D:  0.0875449km  
+T:  8.5s  D:  0.0880767km  
+T:  8.55s  D:  0.0886086km  
+T:  8.6s  D:  0.0891404km  
+T:  8.65s  D:  0.0896722km  
+T:  8.7s  D:  0.090204km  
+T:  8.75s  D:  0.0907358km  
+T:  8.8s  D:  0.0912677km  
+T:  8.85s  D:  0.0917995km  
+T:  8.9s  D:  0.0923313km  
+T:  8.95s  D:  0.0928631km  
+T:  9s  D:  0.0933949km  
+T:  9.05s  D:  0.0939268km  
+T:  9.1s  D:  0.0944586km  
+T:  9.15s  D:  0.0949904km  
+T:  9.2s  D:  0.0955222km  
+T:  9.25s  D:  0.096054km  
+T:  9.3s  D:  0.0965858km  
+T:  9.35s  D:  0.0971177km  
+T:  9.4s  D:  0.0976495km  
+T:  9.45s  D:  0.0981813km  
+T:  9.5s  D:  0.0987131km  
+T:  9.55s  D:  0.0992449km  
+T:  9.6s  D:  0.0997767km  
+T:  9.65s  D:  0.100309km  
+T:  9.7s  D:  0.10084km  
+T:  9.75s  D:  0.101372km  
+T:  9.8s  D:  0.101904km  
+T:  9.85s  D:  0.102436km  
+T:  9.9s  D:  0.102968km  
+T:  9.95s  D:  0.103499km  
+T:  10s  D:  0.104031km  
+T:  10.05s  D:  0.104563km  
+T:  10.1s  D:  0.105095km  
+T:  10.15s  D:  0.105627km  
+T:  10.2s  D:  0.106159km  
+T:  10.25s  D:  0.10669km  
+T:  10.3s  D:  0.107222km  
+T:  10.35s  D:  0.107754km  
+T:  10.4s  D:  0.108286km  
+T:  10.45s  D:  0.108818km  
+T:  10.5s  D:  0.109349km  
+T:  10.55s  D:  0.109881km  
+T:  10.6s  D:  0.110413km  
+T:  10.65s  D:  0.110945km  
+T:  10.7s  D:  0.111477km  
+T:  10.75s  D:  0.112009km  
+T:  10.8s  D:  0.11254km  
+T:  10.85s  D:  0.113072km  
+T:  10.9s  D:  0.113604km  
+T:  10.95s  D:  0.114136km  
+T:  11s  D:  0.114668km  
+T:  11.05s  D:  0.115199km  
+T:  11.1s  D:  0.115731km  
+T:  11.15s  D:  0.116263km  
+T:  11.2s  D:  0.116795km  
+T:  11.25s  D:  0.117327km  
+T:  11.3s  D:  0.117859km  
+T:  11.35s  D:  0.11839km  
+T:  11.4s  D:  0.118922km  
+T:  11.45s  D:  0.119454km  
+T:  11.5s  D:  0.119986km  
+T:  11.55s  D:  0.120518km  
+T:  11.6s  D:  0.121049km  
+T:  11.65s  D:  0.121581km  
+T:  11.7s  D:  0.122113km  
+T:  11.75s  D:  0.122645km  
+T:  11.8s  D:  0.123177km  
+T:  11.85s  D:  0.123709km  
+T:  11.9s  D:  0.12424km  
+T:  11.95s  D:  0.124772km  
+T:  12s  D:  0.125304km  
+T:  12.05s  D:  0.125836km  
+T:  12.1s  D:  0.126368km  
+T:  12.15s  D:  0.126899km  
+T:  12.2s  D:  0.127431km  
+T:  12.25s  D:  0.127963km  
+T:  12.3s  D:  0.128495km  
+T:  12.35s  D:  0.129027km  
+T:  12.4s  D:  0.129559km  
+T:  12.45s  D:  0.13009km  
+T:  12.5s  D:  0.130622km  
+T:  12.55s  D:  0.131154km  
+T:  12.6s  D:  0.131686km  
+T:  12.65s  D:  0.132218km  
+T:  12.7s  D:  0.132749km  
+T:  12.75s  D:  0.133281km  
+T:  12.8s  D:  0.133813km  
+T:  12.85s  D:  0.134345km  
+T:  12.9s  D:  0.134877km  
+T:  12.95s  D:  0.135409km  
+T:  13s  D:  0.13594km  
+T:  13.05s  D:  0.136472km  
+T:  13.1s  D:  0.137004km  
+T:  13.15s  D:  0.137536km  
+T:  13.2s  D:  0.138068km  
+T:  13.25s  D:  0.138599km  
+T:  13.3s  D:  0.139131km  
+T:  13.35s  D:  0.139663km  
+T:  13.4s  D:  0.140195km  
+T:  13.45s  D:  0.140727km  
+T:  13.5s  D:  0.141259km  
+T:  13.55s  D:  0.14179km  
+T:  13.6s  D:  0.142322km  
+T:  13.65s  D:  0.142854km  
+T:  13.7s  D:  0.143386km  
+T:  13.75s  D:  0.143918km  
+T:  13.8s  D:  0.144449km  
+T:  13.85s  D:  0.144981km  
+T:  13.9s  D:  0.145513km  
+T:  13.95s  D:  0.146045km  
+T:  14s  D:  0.146577km  
+T:  14.05s  D:  0.147109km  
+T:  14.1s  D:  0.14764km  
+T:  14.15s  D:  0.148172km  
+T:  14.2s  D:  0.148704km  
+T:  14.25s  D:  0.149236km  
+T:  14.3s  D:  0.149768km  
+T:  14.35s  D:  0.150299km  
+T:  14.4s  D:  0.150831km  
+T:  14.45s  D:  0.151363km  
+T:  14.5s  D:  0.151895km  
+T:  14.55s  D:  0.152427km  
+T:  14.6s  D:  0.152959km  
+T:  14.65s  D:  0.15349km  
+T:  14.7s  D:  0.154022km  
+T:  14.75s  D:  0.154554km  
+T:  14.8s  D:  0.155086km  
+T:  14.85s  D:  0.155618km  
+T:  14.9s  D:  0.156149km  
+T:  14.95s  D:  0.156681km  
+T:  15s  D:  0.157213km  
+T:  15.05s  D:  0.157745km  
+T:  15.1s  D:  0.158277km  
+T:  15.15s  D:  0.158809km  
+T:  15.2s  D:  0.15934km  
+T:  15.25s  D:  0.159872km  
+T:  15.3s  D:  0.160404km  
+T:  15.35s  D:  0.160936km  
+T:  15.4s  D:  0.161468km  
+T:  15.45s  D:  0.161999km  
+T:  15.5s  D:  0.162531km  
+T:  15.55s  D:  0.163063km  
+T:  15.6s  D:  0.163595km  
+T:  15.65s  D:  0.164127km  
+T:  15.7s  D:  0.164659km  
+T:  15.75s  D:  0.16519km  
+T:  15.8s  D:  0.165722km  
+T:  15.85s  D:  0.166254km  
+T:  15.9s  D:  0.166786km  
+T:  15.95s  D:  0.167318km  
+T:  16s  D:  0.167849km  
+T:  16.05s  D:  0.168381km  
+T:  16.1s  D:  0.168913km  
+T:  16.15s  D:  0.169445km  
+T:  16.2s  D:  0.169977km  
+T:  16.25s  D:  0.170509km  
+T:  16.3s  D:  0.17104km  
+T:  16.35s  D:  0.171572km  
+T:  16.4s  D:  0.172104km  
+T:  16.45s  D:  0.172636km  
+T:  16.5s  D:  0.173168km  
+T:  16.55s  D:  0.173699km  
+T:  16.6s  D:  0.174231km  
+T:  16.65s  D:  0.174763km  
+T:  16.7s  D:  0.175295km  
+T:  16.75s  D:  0.175827km  
+T:  16.8s  D:  0.176359km  
+T:  16.85s  D:  0.17689km  
+T:  16.9s  D:  0.177422km  
+T:  16.95s  D:  0.177954km  
+T:  17s  D:  0.178486km  
+T:  17.05s  D:  0.179018km  
+T:  17.1s  D:  0.179549km  
+T:  17.15s  D:  0.180081km  
+T:  17.2s  D:  0.180613km  
+T:  17.25s  D:  0.181145km  
+T:  17.3s  D:  0.181677km  
+T:  17.35s  D:  0.182209km  
+T:  17.4s  D:  0.18274km  
+T:  17.45s  D:  0.183272km  
+T:  17.5s  D:  0.183804km  
+T:  17.55s  D:  0.184336km  
+T:  17.6s  D:  0.184868km  
+T:  17.65s  D:  0.185399km  
+T:  17.7s  D:  0.185931km  
+T:  17.75s  D:  0.186463km  
+T:  17.8s  D:  0.186995km  
+T:  17.85s  D:  0.187527km  
+T:  17.9s  D:  0.188059km  
+T:  17.95s  D:  0.18859km  
+T:  18s  D:  0.189122km  
+T:  18.05s  D:  0.189654km  
+T:  18.1s  D:  0.190186km  
+T:  18.15s  D:  0.190718km  
+T:  18.2s  D:  0.191249km  
+T:  18.25s  D:  0.191781km  
+T:  18.3s  D:  0.192313km  
+T:  18.35s  D:  0.192845km  
+T:  18.4s  D:  0.193377km  
+T:  18.45s  D:  0.193909km  
+T:  18.5s  D:  0.19444km  
+T:  18.55s  D:  0.194972km  
+T:  18.6s  D:  0.195504km  
+T:  18.65s  D:  0.196036km  
+T:  18.7s  D:  0.196568km  
+T:  18.75s  D:  0.197099km  
+T:  18.8s  D:  0.197631km  
+T:  18.85s  D:  0.198163km  
+T:  18.9s  D:  0.198695km  
+T:  18.95s  D:  0.199227km  
+T:  19s  D:  0.199759km  
+T:  19.05s  D:  0.20029km  
+T:  19.1s  D:  0.200822km  
+T:  19.15s  D:  0.201354km  
+T:  19.2s  D:  0.201886km  
+T:  19.25s  D:  0.202418km  
+T:  19.3s  D:  0.202949km  
+T:  19.35s  D:  0.203481km  
+T:  19.4s  D:  0.204013km  
+T:  19.45s  D:  0.204545km  
+T:  19.5s  D:  0.205077km  
+T:  19.55s  D:  0.205609km  
+T:  19.6s  D:  0.20614km  
+T:  19.65s  D:  0.206672km  
+T:  19.7s  D:  0.207204km  
+T:  19.75s  D:  0.207736km  
+T:  19.8s  D:  0.208268km  
+T:  19.85s  D:  0.208799km  
+T:  19.9s  D:  0.209331km  
+T:  19.95s  D:  0.209863km  
+T:  20s  D:  0.210395km  
+T:  20.05s  D:  0.210927km  
+T:  20.1s  D:  0.211459km  
+T:  20.15s  D:  0.21199km  
+T:  20.2s  D:  0.212522km  
+T:  20.25s  D:  0.213054km  
+T:  20.3s  D:  0.213586km  
+T:  20.35s  D:  0.214118km  
+T:  20.4s  D:  0.214649km  
+T:  20.45s  D:  0.215181km  
+T:  20.5s  D:  0.215713km  
+T:  20.55s  D:  0.216245km  
+T:  20.6s  D:  0.216777km  
+T:  20.65s  D:  0.217309km  
+T:  20.7s  D:  0.21784km  
+T:  20.75s  D:  0.218372km  
+T:  20.8s  D:  0.218904km  
+T:  20.85s  D:  0.219436km  
+T:  20.9s  D:  0.219968km  
+T:  20.95s  D:  0.220499km  
+T:  21s  D:  0.221031km  
+T:  21.05s  D:  0.221563km  
+T:  21.1s  D:  0.222095km  
+T:  21.15s  D:  0.222627km  
+T:  21.2s  D:  0.223159km  
+T:  21.25s  D:  0.22369km  
+T:  21.3s  D:  0.224222km  
+T:  21.35s  D:  0.224754km  
+T:  21.4s  D:  0.225286km  
+T:  21.45s  D:  0.225818km  
+T:  21.5s  D:  0.226349km  
+T:  21.55s  D:  0.226881km  
+T:  21.6s  D:  0.227413km  
+T:  21.65s  D:  0.227945km  
+T:  21.7s  D:  0.228477km  
+T:  21.75s  D:  0.229009km  
+T:  21.8s  D:  0.22954km  
+T:  21.85s  D:  0.230072km  
+T:  21.9s  D:  0.230604km  
+T:  21.95s  D:  0.231136km  
+T:  22s  D:  0.231668km  
+T:  22.05s  D:  0.232199km  
+T:  22.1s  D:  0.232731km  
+T:  22.15s  D:  0.233263km  
+T:  22.2s  D:  0.233795km  
+T:  22.25s  D:  0.234327km  
+T:  22.3s  D:  0.234859km  
+T:  22.35s  D:  0.23539km  
+T:  22.4s  D:  0.235922km  
+T:  22.45s  D:  0.236454km  
+T:  22.5s  D:  0.236986km  
+T:  22.55s  D:  0.237518km  
+T:  22.6s  D:  0.238049km  
+T:  22.65s  D:  0.238581km  
+T:  22.7s  D:  0.239113km  
+T:  22.75s  D:  0.239645km  
+T:  22.8s  D:  0.240177km  
+T:  22.85s  D:  0.240709km  
+T:  22.9s  D:  0.24124km  
+T:  22.95s  D:  0.241772km  
+T:  23s  D:  0.242304km  
+T:  23.05s  D:  0.242836km  
+T:  23.1s  D:  0.243368km  
+T:  23.15s  D:  0.243899km  
+T:  23.2s  D:  0.244431km  
+T:  23.25s  D:  0.244963km  
+T:  23.3s  D:  0.245495km  
+T:  23.35s  D:  0.246027km  
+T:  23.4s  D:  0.246559km  
+T:  23.45s  D:  0.24709km  
+T:  23.5s  D:  0.247622km  
+T:  23.55s  D:  0.248154km  
+T:  23.6s  D:  0.248686km  
+T:  23.65s  D:  0.249218km  
+T:  23.7s  D:  0.249749km  
+T:  23.75s  D:  0.250281km  
+T:  23.8s  D:  0.250813km  
+T:  23.85s  D:  0.251345km  
+T:  23.9s  D:  0.251877km  
+T:  23.95s  D:  0.252409km  
+T:  24s  D:  0.25294km  
+T:  24.05s  D:  0.253472km  
+T:  24.1s  D:  0.254004km  
+T:  24.15s  D:  0.254536km  
+T:  24.2s  D:  0.255068km  
+T:  24.25s  D:  0.255599km  
+T:  24.3s  D:  0.256131km  
+T:  24.35s  D:  0.256663km  
+T:  24.4s  D:  0.257195km  
+T:  24.45s  D:  0.257727km  
+T:  24.5s  D:  0.258259km  
+T:  24.55s  D:  0.25879km  
+T:  24.6s  D:  0.259322km  
+T:  24.65s  D:  0.259854km  
+T:  24.7s  D:  0.260386km  
+T:  24.75s  D:  0.260918km  
+T:  24.8s  D:  0.261449km  
+T:  24.85s  D:  0.261981km  
+T:  24.9s  D:  0.262513km  
+T:  24.95s  D:  0.263045km  
+T:  25s  D:  0.263577km  
+T:  25.05s  D:  0.264109km  
+T:  25.1s  D:  0.26464km  
+T:  25.15s  D:  0.265172km  
+T:  25.2s  D:  0.265704km  
+T:  25.25s  D:  0.266236km  
+T:  25.3s  D:  0.266768km  
+T:  25.35s  D:  0.267299km  
+T:  25.4s  D:  0.267831km  
+T:  25.45s  D:  0.268363km  
+T:  25.5s  D:  0.268895km  
+T:  25.55s  D:  0.269427km  
+T:  25.6s  D:  0.269959km  
+T:  25.65s  D:  0.27049km  
+T:  25.7s  D:  0.271022km  
+T:  25.75s  D:  0.271554km  
+T:  25.8s  D:  0.272086km  
+T:  25.85s  D:  0.272618km  
+T:  25.9s  D:  0.273149km  
+T:  25.95s  D:  0.273681km  
+T:  26s  D:  0.274213km  
+T:  26.05s  D:  0.274745km  
+T:  26.1s  D:  0.275277km  
+T:  26.15s  D:  0.275809km  
+T:  26.2s  D:  0.27634km  
+T:  26.25s  D:  0.276872km  
+T:  26.3s  D:  0.277404km  
+T:  26.35s  D:  0.277936km  
+T:  26.4s  D:  0.278468km  
+T:  26.45s  D:  0.278999km  
+T:  26.5s  D:  0.279531km  
+T:  26.55s  D:  0.280063km  
+T:  26.6s  D:  0.280595km  
+T:  26.65s  D:  0.281127km  
+T:  26.7s  D:  0.281659km  
+T:  26.75s  D:  0.28219km  
+T:  26.8s  D:  0.282722km  
+T:  26.85s  D:  0.283254km  
+T:  26.9s  D:  0.283786km  
+T:  26.95s  D:  0.284318km  
+T:  27s  D:  0.284849km  
+T:  27.05s  D:  0.285381km  
+T:  27.1s  D:  0.285913km  
+T:  27.15s  D:  0.286445km  
+T:  27.2s  D:  0.286977km  
+T:  27.25s  D:  0.287509km  
+T:  27.3s  D:  0.28804km  
+T:  27.35s  D:  0.288572km  
+T:  27.4s  D:  0.289104km  
+T:  27.45s  D:  0.289636km  
+T:  27.5s  D:  0.290168km  
+T:  27.55s  D:  0.290699km  
+T:  27.6s  D:  0.291231km  
+T:  27.65s  D:  0.291763km  
+T:  27.7s  D:  0.292295km  
+T:  27.75s  D:  0.292827km  
+T:  27.8s  D:  0.293359km  
+T:  27.85s  D:  0.29389km  
+T:  27.9s  D:  0.294422km  
+T:  27.95s  D:  0.294954km  
+T:  28s  D:  0.295486km  
+T:  28.05s  D:  0.296018km  
+T:  28.1s  D:  0.296549km  
+T:  28.15s  D:  0.297081km  
+T:  28.2s  D:  0.297613km  
+T:  28.25s  D:  0.298145km  
+T:  28.3s  D:  0.298677km  
+T:  28.35s  D:  0.299209km  
+T:  28.4s  D:  0.29974km  
+T:  28.45s  D:  0.300272km  
+T:  28.5s  D:  0.300804km  
+T:  28.55s  D:  0.301336km  
+T:  28.6s  D:  0.301868km  
+T:  28.65s  D:  0.302399km  
+T:  28.7s  D:  0.302931km  
+T:  28.75s  D:  0.303463km  
+T:  28.8s  D:  0.303995km  
+T:  28.85s  D:  0.304527km  
+T:  28.9s  D:  0.305059km  
+T:  28.95s  D:  0.30559km  
+T:  29s  D:  0.306122km  
+T:  29.05s  D:  0.306654km  
+T:  29.1s  D:  0.307186km  
+T:  29.15s  D:  0.307718km  
+T:  29.2s  D:  0.308249km  
+T:  29.25s  D:  0.308781km  
+T:  29.3s  D:  0.309313km  
+T:  29.35s  D:  0.309845km  
+T:  29.4s  D:  0.310377km  
+T:  29.45s  D:  0.310909km  
+T:  29.5s  D:  0.31144km  
+T:  29.55s  D:  0.311972km  
+T:  29.6s  D:  0.312504km  
+T:  29.65s  D:  0.313036km  
+T:  29.7s  D:  0.313568km  
+T:  29.75s  D:  0.314099km  
+T:  29.8s  D:  0.314631km  
+T:  29.85s  D:  0.315163km  
+T:  29.9s  D:  0.315695km  
+T:  29.95s  D:  0.316227km  
+
+Opened file: /Users/tmo22/Documents/JapaneseProject/RFDataStacks/OBS/Migrate
+Epicentral bin: 150
+Epicentral bin: 144
+Epicentral bin: 90
+Epicentral bin: 84
+Epicentral bin: 78
+Epicentral bin: 72
+Epicentral bin: 66
+Epicentral bin: 60
+Epicentral bin: 54
+Epicentral bin: 48
+Epicentral bin: 42
+Epicentral bin: 36
+Epicentral bin: 30
+Epicentral bin: 24
+Saving eqstats, waveforms and coherence
+end save

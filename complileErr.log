@@ -1,0 +1,7 @@
+/usr/bin/g++ -c sacread.cpp -I/Users/tmo22/Seismology/nr_c304/code/
+/usr/bin/g++ -c RecFunc.cpp -I/Users/tmo22/Seismology/nr_c304/code/
+/usr/bin/g++ -c -Wno-deprecated TraceStack.cpp MTCDriver.cpp -I/Users/tmo22/Seismology/nr_c304/code/
+/usr/bin/g++ -c -Wno-deprecated error.cc -I/Users/tmo22/Seismology/nr_c304/code/
+/usr/bin/g++ -c fourier.cpp -I/Users/tmo22/Seismology/nr_c304/code/
+/usr/bin/g++ -c spectrum.cpp -I/Users/tmo22/Seismology/nr_c304/code/
+/usr/bin/g++ -o RecFunc RecFunc.o  TraceStack.o error.o fourier.o spectrum.o -lm

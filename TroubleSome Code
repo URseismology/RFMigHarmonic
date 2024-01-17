@@ -1,0 +1,56 @@
+
+
+	
+
+		
+		// --->> Build Trace on all Arrays....
+
+for (int irec = 0; irec < allrecords.nrec; irec++) {
+
+			/* 
+			 Construct noiseTrace & postEventTrace
+			 I do this for all the components: vertical, radial & transpose.
+			 ? Do I need routine for clarity in code Prose?
+			 */
+			cout << "Data comp. z: " << record[irec].DataCmps[1][17] << endl;
+			
+			for (int cmp = 0; cmp < 3; cmp++) {
+				
+				for (int iter=0; iter < nPad; iter++) {
+					if (iter < nNoiseTrace) {
+						noiseTrace[irec][cmp][iter] = record[irec].DataCmps[cmp][nNoiseTrace - iter];
+					} else {
+						noiseTrace[irec][cmp][iter] = 0.0;
+					}
+					
+				}
+				
+				
+				int posEventNxt, posEventStrt = nNoiseTrace;
+				for (int iter=0; iter < nPad; iter++) {
+					posEventNxt = posEventStrt + iter;
+					if ( iter < nEventTrace) {
+						postEventTrace[irec][cmp][iter] = record[irec].DataCmps[cmp][posEventNxt];
+					} else {
+						postEventTrace[irec][cmp][iter] = 0.0;
+					}
+				}
+				
+			}
+			
+			allrecords.Azim[irec] = record[irec].recAz;
+			allrecords.Epic[irec] = record[irec].recEpic;
+			
+			cout << "File Name: " << allrecords.recordname[irec]
+			<< "Azimuth: " << allrecords.Azim[irec]
+			<< "Epicenter" << allrecords.Epic[irec] << endl;
+			
+			/*Pass Record to MTC driver, computes Spectral Estimates*/
+			/*Args: Noise, Event, p, k, fmax */
+			MTCDriver MTCVals(irec, noiseTrace, postEventTrace, 2.5, 3, Fcutoff, record[irec].deltaT);
+			// Code above doesn't work .. Check type
+			
+			MTCVals.addRF(RFTrace, irec);
+			MTCVals.addCoher(CoherTrace, irec);
+			
+		}
